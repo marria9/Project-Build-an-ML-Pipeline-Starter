@@ -1,0 +1,3386 @@
+diff --git a/.ipynb_checkpoints/Untitled-checkpoint.ipynb b/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+new file mode 100644
+index 0000000..363fcab
+--- /dev/null
++++ b/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+@@ -0,0 +1,6 @@
++{
++ "cells": [],
++ "metadata": {},
++ "nbformat": 4,
++ "nbformat_minor": 5
++}
+diff --git a/Untitled.ipynb b/Untitled.ipynb
+new file mode 100644
+index 0000000..a3b8fde
+--- /dev/null
++++ b/Untitled.ipynb
+@@ -0,0 +1,33 @@
++{
++ "cells": [
++  {
++   "cell_type": "code",
++   "execution_count": null,
++   "id": "04ddad23-5a84-4f9c-95fe-be867c348f7b",
++   "metadata": {},
++   "outputs": [],
++   "source": []
++  }
++ ],
++ "metadata": {
++  "kernelspec": {
++   "display_name": "Python 3 (ipykernel)",
++   "language": "python",
++   "name": "python3"
++  },
++  "language_info": {
++   "codemirror_mode": {
++    "name": "ipython",
++    "version": 3
++   },
++   "file_extension": ".py",
++   "mimetype": "text/x-python",
++   "name": "python",
++   "nbconvert_exporter": "python",
++   "pygments_lexer": "ipython3",
++   "version": "3.8.19"
++  }
++ },
++ "nbformat": 4,
++ "nbformat_minor": 5
++}
+diff --git a/jupyter-lab b/jupyter-lab
+new file mode 100644
+index 0000000..e69de29
+diff --git a/mlruns/0/85466cba3c53418ba22253769e02e8d5/meta.yaml b/mlruns/0/85466cba3c53418ba22253769e02e8d5/meta.yaml
+new file mode 100644
+index 0000000..5d8212f
+--- /dev/null
++++ b/mlruns/0/85466cba3c53418ba22253769e02e8d5/meta.yaml
+@@ -0,0 +1,15 @@
++artifact_uri: file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/mlruns/0/85466cba3c53418ba22253769e02e8d5/artifacts
++end_time: 1721776093949
++entry_point_name: ''
++experiment_id: '0'
++lifecycle_stage: active
++run_id: 85466cba3c53418ba22253769e02e8d5
++run_name: overjoyed-lamb-287
++run_uuid: 85466cba3c53418ba22253769e02e8d5
++source_name: ''
++source_type: 4
++source_version: ''
++start_time: 1721776084683
++status: 3
++tags: []
++user_id: marioarriaga
+diff --git a/mlruns/0/85466cba3c53418ba22253769e02e8d5/params/artifact_description b/mlruns/0/85466cba3c53418ba22253769e02e8d5/params/artifact_description
+new file mode 100644
+index 0000000..bee2a48
+--- /dev/null
++++ b/mlruns/0/85466cba3c53418ba22253769e02e8d5/params/artifact_description
+@@ -0,0 +1 @@
++'Raw file as downloaded'
+\ No newline at end of file
+diff --git a/mlruns/0/85466cba3c53418ba22253769e02e8d5/params/artifact_name b/mlruns/0/85466cba3c53418ba22253769e02e8d5/params/artifact_name
+new file mode 100644
+index 0000000..043b604
+--- /dev/null
++++ b/mlruns/0/85466cba3c53418ba22253769e02e8d5/params/artifact_name
+@@ -0,0 +1 @@
++sample.csv
+\ No newline at end of file
+diff --git a/mlruns/0/85466cba3c53418ba22253769e02e8d5/params/artifact_type b/mlruns/0/85466cba3c53418ba22253769e02e8d5/params/artifact_type
+new file mode 100644
+index 0000000..33abe20
+--- /dev/null
++++ b/mlruns/0/85466cba3c53418ba22253769e02e8d5/params/artifact_type
+@@ -0,0 +1 @@
++raw_data
+\ No newline at end of file
+diff --git a/mlruns/0/85466cba3c53418ba22253769e02e8d5/params/sample b/mlruns/0/85466cba3c53418ba22253769e02e8d5/params/sample
+new file mode 100644
+index 0000000..c1e1cd7
+--- /dev/null
++++ b/mlruns/0/85466cba3c53418ba22253769e02e8d5/params/sample
+@@ -0,0 +1 @@
++sample1.csv
+\ No newline at end of file
+diff --git a/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.gitRepoURL b/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.gitRepoURL
+new file mode 100644
+index 0000000..a9e0a68
+--- /dev/null
++++ b/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.gitRepoURL
+@@ -0,0 +1 @@
++https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter.git
+\ No newline at end of file
+diff --git a/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.project.backend b/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.project.backend
+new file mode 100644
+index 0000000..c2c027f
+--- /dev/null
++++ b/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.project.backend
+@@ -0,0 +1 @@
++local
+\ No newline at end of file
+diff --git a/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.project.entryPoint b/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.project.entryPoint
+new file mode 100644
+index 0000000..88d050b
+--- /dev/null
++++ b/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.project.entryPoint
+@@ -0,0 +1 @@
++main
+\ No newline at end of file
+diff --git a/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.project.env b/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.project.env
+new file mode 100644
+index 0000000..f79e4cb
+--- /dev/null
++++ b/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.project.env
+@@ -0,0 +1 @@
++conda
+\ No newline at end of file
+diff --git a/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.runName b/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.runName
+new file mode 100644
+index 0000000..3e3ce44
+--- /dev/null
++++ b/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.runName
+@@ -0,0 +1 @@
++overjoyed-lamb-287
+\ No newline at end of file
+diff --git a/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.source.git.commit b/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.source.git.commit
+new file mode 100644
+index 0000000..177f79e
+--- /dev/null
++++ b/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.source.git.commit
+@@ -0,0 +1 @@
++077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98
+\ No newline at end of file
+diff --git a/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.source.git.repoURL b/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.source.git.repoURL
+new file mode 100644
+index 0000000..a9e0a68
+--- /dev/null
++++ b/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.source.git.repoURL
+@@ -0,0 +1 @@
++https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter.git
+\ No newline at end of file
+diff --git a/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.source.name b/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.source.name
+new file mode 100644
+index 0000000..1a856ff
+--- /dev/null
++++ b/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.source.name
+@@ -0,0 +1 @@
++https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter.git#components/get_data
+\ No newline at end of file
+diff --git a/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.source.type b/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.source.type
+new file mode 100644
+index 0000000..53f9167
+--- /dev/null
++++ b/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.source.type
+@@ -0,0 +1 @@
++PROJECT
+\ No newline at end of file
+diff --git a/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.user b/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.user
+new file mode 100644
+index 0000000..aa9a678
+--- /dev/null
++++ b/mlruns/0/85466cba3c53418ba22253769e02e8d5/tags/mlflow.user
+@@ -0,0 +1 @@
++marioarriaga
+\ No newline at end of file
+diff --git a/mlruns/0/c51cd9cdd6094a738530368068b4ade2/meta.yaml b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/meta.yaml
+new file mode 100644
+index 0000000..0be7efd
+--- /dev/null
++++ b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/meta.yaml
+@@ -0,0 +1,15 @@
++artifact_uri: file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c51cd9cdd6094a738530368068b4ade2/artifacts
++end_time: 1721776034760
++entry_point_name: ''
++experiment_id: '0'
++lifecycle_stage: active
++run_id: c51cd9cdd6094a738530368068b4ade2
++run_name: charming-eel-897
++run_uuid: c51cd9cdd6094a738530368068b4ade2
++source_name: ''
++source_type: 4
++source_version: ''
++start_time: 1721775965479
++status: 3
++tags: []
++user_id: marioarriaga
+diff --git a/mlruns/0/c51cd9cdd6094a738530368068b4ade2/params/artifact_description b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/params/artifact_description
+new file mode 100644
+index 0000000..bee2a48
+--- /dev/null
++++ b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/params/artifact_description
+@@ -0,0 +1 @@
++'Raw file as downloaded'
+\ No newline at end of file
+diff --git a/mlruns/0/c51cd9cdd6094a738530368068b4ade2/params/artifact_name b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/params/artifact_name
+new file mode 100644
+index 0000000..043b604
+--- /dev/null
++++ b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/params/artifact_name
+@@ -0,0 +1 @@
++sample.csv
+\ No newline at end of file
+diff --git a/mlruns/0/c51cd9cdd6094a738530368068b4ade2/params/artifact_type b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/params/artifact_type
+new file mode 100644
+index 0000000..33abe20
+--- /dev/null
++++ b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/params/artifact_type
+@@ -0,0 +1 @@
++raw_data
+\ No newline at end of file
+diff --git a/mlruns/0/c51cd9cdd6094a738530368068b4ade2/params/sample b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/params/sample
+new file mode 100644
+index 0000000..c1e1cd7
+--- /dev/null
++++ b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/params/sample
+@@ -0,0 +1 @@
++sample1.csv
+\ No newline at end of file
+diff --git a/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.gitRepoURL b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.gitRepoURL
+new file mode 100644
+index 0000000..a9e0a68
+--- /dev/null
++++ b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.gitRepoURL
+@@ -0,0 +1 @@
++https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter.git
+\ No newline at end of file
+diff --git a/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.project.backend b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.project.backend
+new file mode 100644
+index 0000000..c2c027f
+--- /dev/null
++++ b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.project.backend
+@@ -0,0 +1 @@
++local
+\ No newline at end of file
+diff --git a/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.project.entryPoint b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.project.entryPoint
+new file mode 100644
+index 0000000..88d050b
+--- /dev/null
++++ b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.project.entryPoint
+@@ -0,0 +1 @@
++main
+\ No newline at end of file
+diff --git a/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.project.env b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.project.env
+new file mode 100644
+index 0000000..f79e4cb
+--- /dev/null
++++ b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.project.env
+@@ -0,0 +1 @@
++conda
+\ No newline at end of file
+diff --git a/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.runName b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.runName
+new file mode 100644
+index 0000000..062d751
+--- /dev/null
++++ b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.runName
+@@ -0,0 +1 @@
++charming-eel-897
+\ No newline at end of file
+diff --git a/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.source.git.commit b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.source.git.commit
+new file mode 100644
+index 0000000..177f79e
+--- /dev/null
++++ b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.source.git.commit
+@@ -0,0 +1 @@
++077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98
+\ No newline at end of file
+diff --git a/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.source.git.repoURL b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.source.git.repoURL
+new file mode 100644
+index 0000000..a9e0a68
+--- /dev/null
++++ b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.source.git.repoURL
+@@ -0,0 +1 @@
++https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter.git
+\ No newline at end of file
+diff --git a/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.source.name b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.source.name
+new file mode 100644
+index 0000000..1a856ff
+--- /dev/null
++++ b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.source.name
+@@ -0,0 +1 @@
++https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter.git#components/get_data
+\ No newline at end of file
+diff --git a/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.source.type b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.source.type
+new file mode 100644
+index 0000000..53f9167
+--- /dev/null
++++ b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.source.type
+@@ -0,0 +1 @@
++PROJECT
+\ No newline at end of file
+diff --git a/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.user b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.user
+new file mode 100644
+index 0000000..aa9a678
+--- /dev/null
++++ b/mlruns/0/c51cd9cdd6094a738530368068b4ade2/tags/mlflow.user
+@@ -0,0 +1 @@
++marioarriaga
+\ No newline at end of file
+diff --git a/mlruns/0/cc380189c7e543fe830423718e0290bf/meta.yaml b/mlruns/0/cc380189c7e543fe830423718e0290bf/meta.yaml
+new file mode 100644
+index 0000000..9ef9b77
+--- /dev/null
++++ b/mlruns/0/cc380189c7e543fe830423718e0290bf/meta.yaml
+@@ -0,0 +1,15 @@
++artifact_uri: file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/mlruns/0/cc380189c7e543fe830423718e0290bf/artifacts
++end_time: 1721776094051
++entry_point_name: ''
++experiment_id: '0'
++lifecycle_stage: active
++run_id: cc380189c7e543fe830423718e0290bf
++run_name: vaunted-fawn-189
++run_uuid: cc380189c7e543fe830423718e0290bf
++source_name: ''
++source_type: 4
++source_version: ''
++start_time: 1721776081896
++status: 3
++tags: []
++user_id: marioarriaga
+diff --git a/mlruns/0/cc380189c7e543fe830423718e0290bf/params/hydra_options b/mlruns/0/cc380189c7e543fe830423718e0290bf/params/hydra_options
+new file mode 100644
+index 0000000..9423090
+--- /dev/null
++++ b/mlruns/0/cc380189c7e543fe830423718e0290bf/params/hydra_options
+@@ -0,0 +1 @@
++''
+\ No newline at end of file
+diff --git a/mlruns/0/cc380189c7e543fe830423718e0290bf/params/steps b/mlruns/0/cc380189c7e543fe830423718e0290bf/params/steps
+new file mode 100644
+index 0000000..d01dbbd
+--- /dev/null
++++ b/mlruns/0/cc380189c7e543fe830423718e0290bf/params/steps
+@@ -0,0 +1 @@
++download,basic_cleaning
+\ No newline at end of file
+diff --git a/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.gitRepoURL b/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.gitRepoURL
+new file mode 100644
+index 0000000..96ccc72
+--- /dev/null
++++ b/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.gitRepoURL
+@@ -0,0 +1 @@
++https://github.com/marria9/Project-Build-an-ML-Pipeline-Starter
+\ No newline at end of file
+diff --git a/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.project.backend b/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.project.backend
+new file mode 100644
+index 0000000..c2c027f
+--- /dev/null
++++ b/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.project.backend
+@@ -0,0 +1 @@
++local
+\ No newline at end of file
+diff --git a/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.project.entryPoint b/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.project.entryPoint
+new file mode 100644
+index 0000000..88d050b
+--- /dev/null
++++ b/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.project.entryPoint
+@@ -0,0 +1 @@
++main
+\ No newline at end of file
+diff --git a/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.project.env b/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.project.env
+new file mode 100644
+index 0000000..f79e4cb
+--- /dev/null
++++ b/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.project.env
+@@ -0,0 +1 @@
++conda
+\ No newline at end of file
+diff --git a/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.runName b/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.runName
+new file mode 100644
+index 0000000..d521519
+--- /dev/null
++++ b/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.runName
+@@ -0,0 +1 @@
++vaunted-fawn-189
+\ No newline at end of file
+diff --git a/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.source.git.commit b/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.source.git.commit
+new file mode 100644
+index 0000000..177f79e
+--- /dev/null
++++ b/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.source.git.commit
+@@ -0,0 +1 @@
++077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98
+\ No newline at end of file
+diff --git a/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.source.git.repoURL b/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.source.git.repoURL
+new file mode 100644
+index 0000000..96ccc72
+--- /dev/null
++++ b/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.source.git.repoURL
+@@ -0,0 +1 @@
++https://github.com/marria9/Project-Build-an-ML-Pipeline-Starter
+\ No newline at end of file
+diff --git a/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.source.name b/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.source.name
+new file mode 100644
+index 0000000..6fadf70
+--- /dev/null
++++ b/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.source.name
+@@ -0,0 +1 @@
++file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter
+\ No newline at end of file
+diff --git a/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.source.type b/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.source.type
+new file mode 100644
+index 0000000..53f9167
+--- /dev/null
++++ b/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.source.type
+@@ -0,0 +1 @@
++PROJECT
+\ No newline at end of file
+diff --git a/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.user b/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.user
+new file mode 100644
+index 0000000..aa9a678
+--- /dev/null
++++ b/mlruns/0/cc380189c7e543fe830423718e0290bf/tags/mlflow.user
+@@ -0,0 +1 @@
++marioarriaga
+\ No newline at end of file
+diff --git a/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/meta.yaml b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/meta.yaml
+new file mode 100644
+index 0000000..940a1eb
+--- /dev/null
++++ b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/meta.yaml
+@@ -0,0 +1,15 @@
++artifact_uri: file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/artifacts
++end_time: 1721776524454
++entry_point_name: ''
++experiment_id: '0'
++lifecycle_stage: active
++run_id: d8a487822c7e462aaeb4b57c2282adda
++run_name: bouncy-snail-81
++run_uuid: d8a487822c7e462aaeb4b57c2282adda
++source_name: ''
++source_type: 4
++source_version: ''
++start_time: 1721776511824
++status: 3
++tags: []
++user_id: marioarriaga
+diff --git a/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/params/hydra_options b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/params/hydra_options
+new file mode 100644
+index 0000000..9423090
+--- /dev/null
++++ b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/params/hydra_options
+@@ -0,0 +1 @@
++''
+\ No newline at end of file
+diff --git a/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/params/steps b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/params/steps
+new file mode 100644
+index 0000000..8a58e1a
+--- /dev/null
++++ b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/params/steps
+@@ -0,0 +1 @@
++download
+\ No newline at end of file
+diff --git a/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.gitRepoURL b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.gitRepoURL
+new file mode 100644
+index 0000000..96ccc72
+--- /dev/null
++++ b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.gitRepoURL
+@@ -0,0 +1 @@
++https://github.com/marria9/Project-Build-an-ML-Pipeline-Starter
+\ No newline at end of file
+diff --git a/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.project.backend b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.project.backend
+new file mode 100644
+index 0000000..c2c027f
+--- /dev/null
++++ b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.project.backend
+@@ -0,0 +1 @@
++local
+\ No newline at end of file
+diff --git a/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.project.entryPoint b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.project.entryPoint
+new file mode 100644
+index 0000000..88d050b
+--- /dev/null
++++ b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.project.entryPoint
+@@ -0,0 +1 @@
++main
+\ No newline at end of file
+diff --git a/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.project.env b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.project.env
+new file mode 100644
+index 0000000..f79e4cb
+--- /dev/null
++++ b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.project.env
+@@ -0,0 +1 @@
++conda
+\ No newline at end of file
+diff --git a/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.runName b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.runName
+new file mode 100644
+index 0000000..4e7b79f
+--- /dev/null
++++ b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.runName
+@@ -0,0 +1 @@
++bouncy-snail-81
+\ No newline at end of file
+diff --git a/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.source.git.commit b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.source.git.commit
+new file mode 100644
+index 0000000..177f79e
+--- /dev/null
++++ b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.source.git.commit
+@@ -0,0 +1 @@
++077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98
+\ No newline at end of file
+diff --git a/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.source.git.repoURL b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.source.git.repoURL
+new file mode 100644
+index 0000000..96ccc72
+--- /dev/null
++++ b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.source.git.repoURL
+@@ -0,0 +1 @@
++https://github.com/marria9/Project-Build-an-ML-Pipeline-Starter
+\ No newline at end of file
+diff --git a/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.source.name b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.source.name
+new file mode 100644
+index 0000000..6fadf70
+--- /dev/null
++++ b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.source.name
+@@ -0,0 +1 @@
++file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter
+\ No newline at end of file
+diff --git a/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.source.type b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.source.type
+new file mode 100644
+index 0000000..53f9167
+--- /dev/null
++++ b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.source.type
+@@ -0,0 +1 @@
++PROJECT
+\ No newline at end of file
+diff --git a/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.user b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.user
+new file mode 100644
+index 0000000..aa9a678
+--- /dev/null
++++ b/mlruns/0/d8a487822c7e462aaeb4b57c2282adda/tags/mlflow.user
+@@ -0,0 +1 @@
++marioarriaga
+\ No newline at end of file
+diff --git a/mlruns/0/d9cf0e5ea33745129490171b311dc790/meta.yaml b/mlruns/0/d9cf0e5ea33745129490171b311dc790/meta.yaml
+new file mode 100644
+index 0000000..790d47c
+--- /dev/null
++++ b/mlruns/0/d9cf0e5ea33745129490171b311dc790/meta.yaml
+@@ -0,0 +1,15 @@
++artifact_uri: file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d9cf0e5ea33745129490171b311dc790/artifacts
++end_time: 1721776524384
++entry_point_name: ''
++experiment_id: '0'
++lifecycle_stage: active
++run_id: d9cf0e5ea33745129490171b311dc790
++run_name: powerful-lark-322
++run_uuid: d9cf0e5ea33745129490171b311dc790
++source_name: ''
++source_type: 4
++source_version: ''
++start_time: 1721776514621
++status: 3
++tags: []
++user_id: marioarriaga
+diff --git a/mlruns/0/d9cf0e5ea33745129490171b311dc790/params/artifact_description b/mlruns/0/d9cf0e5ea33745129490171b311dc790/params/artifact_description
+new file mode 100644
+index 0000000..bee2a48
+--- /dev/null
++++ b/mlruns/0/d9cf0e5ea33745129490171b311dc790/params/artifact_description
+@@ -0,0 +1 @@
++'Raw file as downloaded'
+\ No newline at end of file
+diff --git a/mlruns/0/d9cf0e5ea33745129490171b311dc790/params/artifact_name b/mlruns/0/d9cf0e5ea33745129490171b311dc790/params/artifact_name
+new file mode 100644
+index 0000000..043b604
+--- /dev/null
++++ b/mlruns/0/d9cf0e5ea33745129490171b311dc790/params/artifact_name
+@@ -0,0 +1 @@
++sample.csv
+\ No newline at end of file
+diff --git a/mlruns/0/d9cf0e5ea33745129490171b311dc790/params/artifact_type b/mlruns/0/d9cf0e5ea33745129490171b311dc790/params/artifact_type
+new file mode 100644
+index 0000000..33abe20
+--- /dev/null
++++ b/mlruns/0/d9cf0e5ea33745129490171b311dc790/params/artifact_type
+@@ -0,0 +1 @@
++raw_data
+\ No newline at end of file
+diff --git a/mlruns/0/d9cf0e5ea33745129490171b311dc790/params/sample b/mlruns/0/d9cf0e5ea33745129490171b311dc790/params/sample
+new file mode 100644
+index 0000000..c1e1cd7
+--- /dev/null
++++ b/mlruns/0/d9cf0e5ea33745129490171b311dc790/params/sample
+@@ -0,0 +1 @@
++sample1.csv
+\ No newline at end of file
+diff --git a/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.gitRepoURL b/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.gitRepoURL
+new file mode 100644
+index 0000000..a9e0a68
+--- /dev/null
++++ b/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.gitRepoURL
+@@ -0,0 +1 @@
++https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter.git
+\ No newline at end of file
+diff --git a/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.project.backend b/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.project.backend
+new file mode 100644
+index 0000000..c2c027f
+--- /dev/null
++++ b/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.project.backend
+@@ -0,0 +1 @@
++local
+\ No newline at end of file
+diff --git a/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.project.entryPoint b/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.project.entryPoint
+new file mode 100644
+index 0000000..88d050b
+--- /dev/null
++++ b/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.project.entryPoint
+@@ -0,0 +1 @@
++main
+\ No newline at end of file
+diff --git a/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.project.env b/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.project.env
+new file mode 100644
+index 0000000..f79e4cb
+--- /dev/null
++++ b/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.project.env
+@@ -0,0 +1 @@
++conda
+\ No newline at end of file
+diff --git a/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.runName b/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.runName
+new file mode 100644
+index 0000000..8b1f818
+--- /dev/null
++++ b/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.runName
+@@ -0,0 +1 @@
++powerful-lark-322
+\ No newline at end of file
+diff --git a/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.source.git.commit b/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.source.git.commit
+new file mode 100644
+index 0000000..177f79e
+--- /dev/null
++++ b/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.source.git.commit
+@@ -0,0 +1 @@
++077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98
+\ No newline at end of file
+diff --git a/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.source.git.repoURL b/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.source.git.repoURL
+new file mode 100644
+index 0000000..a9e0a68
+--- /dev/null
++++ b/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.source.git.repoURL
+@@ -0,0 +1 @@
++https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter.git
+\ No newline at end of file
+diff --git a/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.source.name b/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.source.name
+new file mode 100644
+index 0000000..1a856ff
+--- /dev/null
++++ b/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.source.name
+@@ -0,0 +1 @@
++https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter.git#components/get_data
+\ No newline at end of file
+diff --git a/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.source.type b/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.source.type
+new file mode 100644
+index 0000000..53f9167
+--- /dev/null
++++ b/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.source.type
+@@ -0,0 +1 @@
++PROJECT
+\ No newline at end of file
+diff --git a/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.user b/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.user
+new file mode 100644
+index 0000000..aa9a678
+--- /dev/null
++++ b/mlruns/0/d9cf0e5ea33745129490171b311dc790/tags/mlflow.user
+@@ -0,0 +1 @@
++marioarriaga
+\ No newline at end of file
+diff --git a/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/meta.yaml b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/meta.yaml
+new file mode 100644
+index 0000000..544cac8
+--- /dev/null
++++ b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/meta.yaml
+@@ -0,0 +1,15 @@
++artifact_uri: file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/artifacts
++end_time: 1721776034851
++entry_point_name: ''
++experiment_id: '0'
++lifecycle_stage: active
++run_id: f00cc28cc59b47e18157874014f8f3c8
++run_name: overjoyed-shark-86
++run_uuid: f00cc28cc59b47e18157874014f8f3c8
++source_name: ''
++source_type: 4
++source_version: ''
++start_time: 1721775900097
++status: 3
++tags: []
++user_id: marioarriaga
+diff --git a/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/params/hydra_options b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/params/hydra_options
+new file mode 100644
+index 0000000..9423090
+--- /dev/null
++++ b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/params/hydra_options
+@@ -0,0 +1 @@
++''
+\ No newline at end of file
+diff --git a/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/params/steps b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/params/steps
+new file mode 100644
+index 0000000..baa6044
+--- /dev/null
++++ b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/params/steps
+@@ -0,0 +1 @@
++all
+\ No newline at end of file
+diff --git a/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.gitRepoURL b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.gitRepoURL
+new file mode 100644
+index 0000000..96ccc72
+--- /dev/null
++++ b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.gitRepoURL
+@@ -0,0 +1 @@
++https://github.com/marria9/Project-Build-an-ML-Pipeline-Starter
+\ No newline at end of file
+diff --git a/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.project.backend b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.project.backend
+new file mode 100644
+index 0000000..c2c027f
+--- /dev/null
++++ b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.project.backend
+@@ -0,0 +1 @@
++local
+\ No newline at end of file
+diff --git a/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.project.entryPoint b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.project.entryPoint
+new file mode 100644
+index 0000000..88d050b
+--- /dev/null
++++ b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.project.entryPoint
+@@ -0,0 +1 @@
++main
+\ No newline at end of file
+diff --git a/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.project.env b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.project.env
+new file mode 100644
+index 0000000..f79e4cb
+--- /dev/null
++++ b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.project.env
+@@ -0,0 +1 @@
++conda
+\ No newline at end of file
+diff --git a/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.runName b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.runName
+new file mode 100644
+index 0000000..c298994
+--- /dev/null
++++ b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.runName
+@@ -0,0 +1 @@
++overjoyed-shark-86
+\ No newline at end of file
+diff --git a/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.source.git.commit b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.source.git.commit
+new file mode 100644
+index 0000000..177f79e
+--- /dev/null
++++ b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.source.git.commit
+@@ -0,0 +1 @@
++077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98
+\ No newline at end of file
+diff --git a/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.source.git.repoURL b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.source.git.repoURL
+new file mode 100644
+index 0000000..96ccc72
+--- /dev/null
++++ b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.source.git.repoURL
+@@ -0,0 +1 @@
++https://github.com/marria9/Project-Build-an-ML-Pipeline-Starter
+\ No newline at end of file
+diff --git a/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.source.name b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.source.name
+new file mode 100644
+index 0000000..6fadf70
+--- /dev/null
++++ b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.source.name
+@@ -0,0 +1 @@
++file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter
+\ No newline at end of file
+diff --git a/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.source.type b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.source.type
+new file mode 100644
+index 0000000..53f9167
+--- /dev/null
++++ b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.source.type
+@@ -0,0 +1 @@
++PROJECT
+\ No newline at end of file
+diff --git a/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.user b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.user
+new file mode 100644
+index 0000000..aa9a678
+--- /dev/null
++++ b/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/tags/mlflow.user
+@@ -0,0 +1 @@
++marioarriaga
+\ No newline at end of file
+diff --git a/mlruns/0/meta.yaml b/mlruns/0/meta.yaml
+new file mode 100644
+index 0000000..c106851
+--- /dev/null
++++ b/mlruns/0/meta.yaml
+@@ -0,0 +1,6 @@
++artifact_location: file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/mlruns/0
++creation_time: 1721775900096
++experiment_id: '0'
++last_update_time: 1721775900096
++lifecycle_stage: active
++name: Default
+diff --git a/outputs/2024-07-23/18-06-04/.hydra/config.yaml b/outputs/2024-07-23/18-06-04/.hydra/config.yaml
+new file mode 100644
+index 0000000..e8d899a
+--- /dev/null
++++ b/outputs/2024-07-23/18-06-04/.hydra/config.yaml
+@@ -0,0 +1,26 @@
++main:
++  components_repository: https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter.git#components
++  project_name: nyc_airbnb
++  experiment_name: development
++  steps: all
++etl:
++  sample: sample1.csv
++  min_price: 10
++  max_price: 350
++data_check:
++  kl_threshold: 0.2
++modeling:
++  test_size: 0.2
++  val_size: 0.2
++  random_seed: 42
++  stratify_by: neighbourhood_group
++  max_tfidf_features: 5
++  random_forest:
++    n_estimators: 100
++    max_depth: 15
++    min_samples_split: 4
++    min_samples_leaf: 3
++    n_jobs: -1
++    criterion: mae
++    max_features: 0.5
++    oob_score: true
+diff --git a/outputs/2024-07-23/18-06-04/.hydra/hydra.yaml b/outputs/2024-07-23/18-06-04/.hydra/hydra.yaml
+new file mode 100644
+index 0000000..93907fd
+--- /dev/null
++++ b/outputs/2024-07-23/18-06-04/.hydra/hydra.yaml
+@@ -0,0 +1,126 @@
++hydra:
++  run:
++    dir: outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
++  sweep:
++    dir: multirun/${now:%Y-%m-%d}/${now:%H-%M-%S}
++    subdir: ${hydra.job.num}
++  hydra_logging:
++    version: 1
++    formatters:
++      simple:
++        format: '[%(asctime)s][HYDRA] %(message)s'
++    handlers:
++      console:
++        class: logging.StreamHandler
++        formatter: simple
++        stream: ext://sys.stdout
++    root:
++      level: INFO
++      handlers:
++      - console
++    loggers:
++      logging_example:
++        level: DEBUG
++    disable_existing_loggers: false
++  job_logging:
++    version: 1
++    formatters:
++      simple:
++        format: '[%(asctime)s][%(name)s][%(levelname)s] - %(message)s'
++    handlers:
++      console:
++        class: logging.StreamHandler
++        formatter: simple
++        stream: ext://sys.stdout
++      file:
++        class: logging.FileHandler
++        formatter: simple
++        filename: ${hydra.job.name}.log
++    root:
++      level: INFO
++      handlers:
++      - console
++      - file
++    disable_existing_loggers: false
++  sweeper:
++    _target_: hydra._internal.core_plugins.basic_sweeper.BasicSweeper
++    max_batch_size: null
++  launcher:
++    _target_: hydra._internal.core_plugins.basic_launcher.BasicLauncher
++  help:
++    app_name: ${hydra.job.name}
++    header: '${hydra.help.app_name} is powered by Hydra.
++
++      '
++    footer: 'Powered by Hydra (https://hydra.cc)
++
++      Use --hydra-help to view Hydra specific help
++
++      '
++    template: '${hydra.help.header}
++
++      == Configuration groups ==
++
++      Compose your configuration from those groups (group=option)
++
++
++      $APP_CONFIG_GROUPS
++
++
++      == Config ==
++
++      Override anything in the config (foo.bar=value)
++
++
++      $CONFIG
++
++
++      ${hydra.help.footer}
++
++      '
++  hydra_help:
++    hydra_help: ???
++    template: 'Hydra (${hydra.runtime.version})
++
++      See https://hydra.cc for more info.
++
++
++      == Flags ==
++
++      $FLAGS_HELP
++
++
++      == Configuration groups ==
++
++      Compose your configuration from those groups (For example, append hydra/job_logging=disabled
++      to command line)
++
++
++      $HYDRA_CONFIG_GROUPS
++
++
++      Use ''--cfg hydra'' to Show the Hydra config.
++
++      '
++  output_subdir: .hydra
++  overrides:
++    hydra: []
++    task:
++    - main.steps='all'
++  job:
++    name: main
++    override_dirname: main.steps='all'
++    id: ???
++    num: ???
++    config_name: config
++    env_set: {}
++    env_copy: []
++    config:
++      override_dirname:
++        kv_sep: '='
++        item_sep: ','
++        exclude_keys: []
++  runtime:
++    version: 1.0.6
++    cwd: /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter
++  verbose: false
+diff --git a/outputs/2024-07-23/18-06-04/.hydra/overrides.yaml b/outputs/2024-07-23/18-06-04/.hydra/overrides.yaml
+new file mode 100644
+index 0000000..b301b22
+--- /dev/null
++++ b/outputs/2024-07-23/18-06-04/.hydra/overrides.yaml
+@@ -0,0 +1 @@
++- main.steps='all'
+diff --git a/outputs/2024-07-23/18-06-04/main.log b/outputs/2024-07-23/18-06-04/main.log
+new file mode 100644
+index 0000000..e69de29
+diff --git a/outputs/2024-07-23/18-06-04/rf_config.json b/outputs/2024-07-23/18-06-04/rf_config.json
+new file mode 100644
+index 0000000..7d6cf52
+--- /dev/null
++++ b/outputs/2024-07-23/18-06-04/rf_config.json
+@@ -0,0 +1 @@
++{"n_estimators": 100, "max_depth": 15, "min_samples_split": 4, "min_samples_leaf": 3, "n_jobs": -1, "criterion": "mae", "max_features": 0.5, "oob_score": true}
+\ No newline at end of file
+diff --git a/outputs/2024-07-23/18-08-03/.hydra/config.yaml b/outputs/2024-07-23/18-08-03/.hydra/config.yaml
+new file mode 100644
+index 0000000..0013a93
+--- /dev/null
++++ b/outputs/2024-07-23/18-08-03/.hydra/config.yaml
+@@ -0,0 +1,26 @@
++main:
++  components_repository: https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter.git#components
++  project_name: nyc_airbnb
++  experiment_name: development
++  steps: download,basic_cleaning
++etl:
++  sample: sample1.csv
++  min_price: 10
++  max_price: 350
++data_check:
++  kl_threshold: 0.2
++modeling:
++  test_size: 0.2
++  val_size: 0.2
++  random_seed: 42
++  stratify_by: neighbourhood_group
++  max_tfidf_features: 5
++  random_forest:
++    n_estimators: 100
++    max_depth: 15
++    min_samples_split: 4
++    min_samples_leaf: 3
++    n_jobs: -1
++    criterion: mae
++    max_features: 0.5
++    oob_score: true
+diff --git a/outputs/2024-07-23/18-08-03/.hydra/hydra.yaml b/outputs/2024-07-23/18-08-03/.hydra/hydra.yaml
+new file mode 100644
+index 0000000..7de4b0c
+--- /dev/null
++++ b/outputs/2024-07-23/18-08-03/.hydra/hydra.yaml
+@@ -0,0 +1,126 @@
++hydra:
++  run:
++    dir: outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
++  sweep:
++    dir: multirun/${now:%Y-%m-%d}/${now:%H-%M-%S}
++    subdir: ${hydra.job.num}
++  hydra_logging:
++    version: 1
++    formatters:
++      simple:
++        format: '[%(asctime)s][HYDRA] %(message)s'
++    handlers:
++      console:
++        class: logging.StreamHandler
++        formatter: simple
++        stream: ext://sys.stdout
++    root:
++      level: INFO
++      handlers:
++      - console
++    loggers:
++      logging_example:
++        level: DEBUG
++    disable_existing_loggers: false
++  job_logging:
++    version: 1
++    formatters:
++      simple:
++        format: '[%(asctime)s][%(name)s][%(levelname)s] - %(message)s'
++    handlers:
++      console:
++        class: logging.StreamHandler
++        formatter: simple
++        stream: ext://sys.stdout
++      file:
++        class: logging.FileHandler
++        formatter: simple
++        filename: ${hydra.job.name}.log
++    root:
++      level: INFO
++      handlers:
++      - console
++      - file
++    disable_existing_loggers: false
++  sweeper:
++    _target_: hydra._internal.core_plugins.basic_sweeper.BasicSweeper
++    max_batch_size: null
++  launcher:
++    _target_: hydra._internal.core_plugins.basic_launcher.BasicLauncher
++  help:
++    app_name: ${hydra.job.name}
++    header: '${hydra.help.app_name} is powered by Hydra.
++
++      '
++    footer: 'Powered by Hydra (https://hydra.cc)
++
++      Use --hydra-help to view Hydra specific help
++
++      '
++    template: '${hydra.help.header}
++
++      == Configuration groups ==
++
++      Compose your configuration from those groups (group=option)
++
++
++      $APP_CONFIG_GROUPS
++
++
++      == Config ==
++
++      Override anything in the config (foo.bar=value)
++
++
++      $CONFIG
++
++
++      ${hydra.help.footer}
++
++      '
++  hydra_help:
++    hydra_help: ???
++    template: 'Hydra (${hydra.runtime.version})
++
++      See https://hydra.cc for more info.
++
++
++      == Flags ==
++
++      $FLAGS_HELP
++
++
++      == Configuration groups ==
++
++      Compose your configuration from those groups (For example, append hydra/job_logging=disabled
++      to command line)
++
++
++      $HYDRA_CONFIG_GROUPS
++
++
++      Use ''--cfg hydra'' to Show the Hydra config.
++
++      '
++  output_subdir: .hydra
++  overrides:
++    hydra: []
++    task:
++    - main.steps='download,basic_cleaning'
++  job:
++    name: main
++    override_dirname: main.steps='download,basic_cleaning'
++    id: ???
++    num: ???
++    config_name: config
++    env_set: {}
++    env_copy: []
++    config:
++      override_dirname:
++        kv_sep: '='
++        item_sep: ','
++        exclude_keys: []
++  runtime:
++    version: 1.0.6
++    cwd: /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter
++  verbose: false
+diff --git a/outputs/2024-07-23/18-08-03/.hydra/overrides.yaml b/outputs/2024-07-23/18-08-03/.hydra/overrides.yaml
+new file mode 100644
+index 0000000..f7f3227
+--- /dev/null
++++ b/outputs/2024-07-23/18-08-03/.hydra/overrides.yaml
+@@ -0,0 +1 @@
++- main.steps='download,basic_cleaning'
+diff --git a/outputs/2024-07-23/18-08-03/main.log b/outputs/2024-07-23/18-08-03/main.log
+new file mode 100644
+index 0000000..e69de29
+diff --git a/outputs/2024-07-23/18-15-13/.hydra/config.yaml b/outputs/2024-07-23/18-15-13/.hydra/config.yaml
+new file mode 100644
+index 0000000..7a99172
+--- /dev/null
++++ b/outputs/2024-07-23/18-15-13/.hydra/config.yaml
+@@ -0,0 +1,26 @@
++main:
++  components_repository: https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter.git#components
++  project_name: nyc_airbnb
++  experiment_name: development
++  steps: download
++etl:
++  sample: sample1.csv
++  min_price: 10
++  max_price: 350
++data_check:
++  kl_threshold: 0.2
++modeling:
++  test_size: 0.2
++  val_size: 0.2
++  random_seed: 42
++  stratify_by: neighbourhood_group
++  max_tfidf_features: 5
++  random_forest:
++    n_estimators: 100
++    max_depth: 15
++    min_samples_split: 4
++    min_samples_leaf: 3
++    n_jobs: -1
++    criterion: mae
++    max_features: 0.5
++    oob_score: true
+diff --git a/outputs/2024-07-23/18-15-13/.hydra/hydra.yaml b/outputs/2024-07-23/18-15-13/.hydra/hydra.yaml
+new file mode 100644
+index 0000000..79b4e28
+--- /dev/null
++++ b/outputs/2024-07-23/18-15-13/.hydra/hydra.yaml
+@@ -0,0 +1,126 @@
++hydra:
++  run:
++    dir: outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
++  sweep:
++    dir: multirun/${now:%Y-%m-%d}/${now:%H-%M-%S}
++    subdir: ${hydra.job.num}
++  hydra_logging:
++    version: 1
++    formatters:
++      simple:
++        format: '[%(asctime)s][HYDRA] %(message)s'
++    handlers:
++      console:
++        class: logging.StreamHandler
++        formatter: simple
++        stream: ext://sys.stdout
++    root:
++      level: INFO
++      handlers:
++      - console
++    loggers:
++      logging_example:
++        level: DEBUG
++    disable_existing_loggers: false
++  job_logging:
++    version: 1
++    formatters:
++      simple:
++        format: '[%(asctime)s][%(name)s][%(levelname)s] - %(message)s'
++    handlers:
++      console:
++        class: logging.StreamHandler
++        formatter: simple
++        stream: ext://sys.stdout
++      file:
++        class: logging.FileHandler
++        formatter: simple
++        filename: ${hydra.job.name}.log
++    root:
++      level: INFO
++      handlers:
++      - console
++      - file
++    disable_existing_loggers: false
++  sweeper:
++    _target_: hydra._internal.core_plugins.basic_sweeper.BasicSweeper
++    max_batch_size: null
++  launcher:
++    _target_: hydra._internal.core_plugins.basic_launcher.BasicLauncher
++  help:
++    app_name: ${hydra.job.name}
++    header: '${hydra.help.app_name} is powered by Hydra.
++
++      '
++    footer: 'Powered by Hydra (https://hydra.cc)
++
++      Use --hydra-help to view Hydra specific help
++
++      '
++    template: '${hydra.help.header}
++
++      == Configuration groups ==
++
++      Compose your configuration from those groups (group=option)
++
++
++      $APP_CONFIG_GROUPS
++
++
++      == Config ==
++
++      Override anything in the config (foo.bar=value)
++
++
++      $CONFIG
++
++
++      ${hydra.help.footer}
++
++      '
++  hydra_help:
++    hydra_help: ???
++    template: 'Hydra (${hydra.runtime.version})
++
++      See https://hydra.cc for more info.
++
++
++      == Flags ==
++
++      $FLAGS_HELP
++
++
++      == Configuration groups ==
++
++      Compose your configuration from those groups (For example, append hydra/job_logging=disabled
++      to command line)
++
++
++      $HYDRA_CONFIG_GROUPS
++
++
++      Use ''--cfg hydra'' to Show the Hydra config.
++
++      '
++  output_subdir: .hydra
++  overrides:
++    hydra: []
++    task:
++    - main.steps='download'
++  job:
++    name: main
++    override_dirname: main.steps='download'
++    id: ???
++    num: ???
++    config_name: config
++    env_set: {}
++    env_copy: []
++    config:
++      override_dirname:
++        kv_sep: '='
++        item_sep: ','
++        exclude_keys: []
++  runtime:
++    version: 1.0.6
++    cwd: /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter
++  verbose: false
+diff --git a/outputs/2024-07-23/18-15-13/.hydra/overrides.yaml b/outputs/2024-07-23/18-15-13/.hydra/overrides.yaml
+new file mode 100644
+index 0000000..dbb770a
+--- /dev/null
++++ b/outputs/2024-07-23/18-15-13/.hydra/overrides.yaml
+@@ -0,0 +1 @@
++- main.steps='download'
+diff --git a/outputs/2024-07-23/18-15-13/main.log b/outputs/2024-07-23/18-15-13/main.log
+new file mode 100644
+index 0000000..e69de29
+diff --git a/src/eda/.ipynb_checkpoints/eda-checkpoint.ipynb b/src/eda/.ipynb_checkpoints/eda-checkpoint.ipynb
+new file mode 100644
+index 0000000..06abc38
+--- /dev/null
++++ b/src/eda/.ipynb_checkpoints/eda-checkpoint.ipynb
+@@ -0,0 +1,886 @@
++{
++ "cells": [
++  {
++   "cell_type": "code",
++   "execution_count": 6,
++   "id": "1f72a955",
++   "metadata": {
++    "scrolled": true,
++    "tags": []
++   },
++   "outputs": [
++    {
++     "name": "stdout",
++     "output_type": "stream",
++     "text": [
++      "Requirement already satisfied: wandb==0.13.9 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (0.13.9)\n",
++      "Requirement already satisfied: setproctitle in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (1.3.2)\n",
++      "Requirement already satisfied: protobuf!=4.21.0,<5,>=3.19.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (4.21.12)\n",
++      "Requirement already satisfied: docker-pycreds>=0.4.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (0.4.0)\n",
++      "Requirement already satisfied: setuptools in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (59.8.0)\n",
++      "Requirement already satisfied: pathtools in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (0.1.2)\n",
++      "Requirement already satisfied: Click!=8.0.0,>=7.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (8.1.3)\n",
++      "Requirement already satisfied: GitPython>=1.0.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (3.1.31)\n",
++      "Requirement already satisfied: appdirs>=1.4.3 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (1.4.4)\n",
++      "Requirement already satisfied: requests<3,>=2.0.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (2.28.2)\n",
++      "Requirement already satisfied: typing-extensions in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (4.5.0)\n",
++      "Requirement already satisfied: PyYAML in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (6.0)\n",
++      "Requirement already satisfied: sentry-sdk>=1.0.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (1.19.1)\n",
++      "Requirement already satisfied: psutil>=5.0.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (5.9.4)\n",
++      "Requirement already satisfied: six>=1.4.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from docker-pycreds>=0.4.0->wandb==0.13.9) (1.16.0)\n",
++      "Requirement already satisfied: gitdb<5,>=4.0.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from GitPython>=1.0.0->wandb==0.13.9) (4.0.10)\n",
++      "Requirement already satisfied: smmap<6,>=3.0.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from gitdb<5,>=4.0.1->GitPython>=1.0.0->wandb==0.13.9) (3.0.5)\n",
++      "Requirement already satisfied: idna<4,>=2.5 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<3,>=2.0.0->wandb==0.13.9) (3.4)\n",
++      "Requirement already satisfied: urllib3<1.27,>=1.21.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<3,>=2.0.0->wandb==0.13.9) (1.26.15)\n",
++      "Requirement already satisfied: charset-normalizer<4,>=2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<3,>=2.0.0->wandb==0.13.9) (3.1.0)\n",
++      "Requirement already satisfied: certifi>=2017.4.17 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<3,>=2.0.0->wandb==0.13.9) (2022.12.7)\n",
++      "Requirement already satisfied: pandas-profiling==3.6.2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (3.6.2)\n",
++      "Requirement already satisfied: multimethod<1.10,>=1.4 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (1.9.1)\n",
++      "Requirement already satisfied: jinja2<3.2,>=2.11.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (2.11.3)\n",
++      "Requirement already satisfied: matplotlib<3.7,>=3.2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (3.6.2)\n",
++      "Requirement already satisfied: scipy<1.10,>=1.4.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (1.9.3)\n",
++      "Requirement already satisfied: htmlmin==0.1.12 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (0.1.12)\n",
++      "Requirement already satisfied: requests<2.29,>=2.24.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (2.28.2)\n",
++      "Requirement already satisfied: numpy<1.24,>=1.16.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (1.23.5)\n",
++      "Requirement already satisfied: seaborn<0.13,>=0.10.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (0.11.1)\n",
++      "Requirement already satisfied: statsmodels<0.14,>=0.13.2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (0.13.5)\n",
++      "Requirement already satisfied: pydantic<1.11,>=1.8.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (1.10.7)\n",
++      "Requirement already satisfied: pandas!=1.4.0,<1.6,>1.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (1.2.3)\n",
++      "Requirement already satisfied: phik<0.13,>=0.11.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (0.12.3)\n",
++      "Requirement already satisfied: typeguard<2.14,>=2.13.2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (2.13.3)\n",
++      "Requirement already satisfied: PyYAML<6.1,>=5.0.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (6.0)\n",
++      "Requirement already satisfied: visions[type_image_path]==0.7.5 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (0.7.5)\n",
++      "Requirement already satisfied: tqdm<4.65,>=4.48.2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (4.64.1)\n",
++      "Requirement already satisfied: attrs>=19.3.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (22.2.0)\n",
++      "Requirement already satisfied: networkx>=2.4 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (3.1)\n",
++      "Requirement already satisfied: tangled-up-in-unicode>=0.0.4 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (0.2.0)\n",
++      "Requirement already satisfied: Pillow in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (9.5.0)\n",
++      "Requirement already satisfied: imagehash in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (4.3.1)\n",
++      "Requirement already satisfied: MarkupSafe>=0.23 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from jinja2<3.2,>=2.11.1->pandas-profiling==3.6.2) (1.1.1)\n",
++      "Requirement already satisfied: pyparsing>=2.2.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (3.0.9)\n",
++      "Requirement already satisfied: python-dateutil>=2.7 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (2.8.2)\n",
++      "Requirement already satisfied: contourpy>=1.0.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (1.0.7)\n",
++      "Requirement already satisfied: packaging>=20.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (22.0)\n",
++      "Requirement already satisfied: kiwisolver>=1.0.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (1.4.4)\n",
++      "Requirement already satisfied: fonttools>=4.22.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (4.39.3)\n",
++      "Requirement already satisfied: cycler>=0.10 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (0.11.0)\n",
++      "Requirement already satisfied: pytz>=2017.3 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas!=1.4.0,<1.6,>1.1->pandas-profiling==3.6.2) (2022.7.1)\n",
++      "Requirement already satisfied: joblib>=0.14.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from phik<0.13,>=0.11.1->pandas-profiling==3.6.2) (1.2.0)\n",
++      "Requirement already satisfied: typing-extensions>=4.2.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pydantic<1.11,>=1.8.1->pandas-profiling==3.6.2) (4.5.0)\n",
++      "Requirement already satisfied: six>=1.5 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from python-dateutil>=2.7->matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (1.16.0)\n",
++      "Requirement already satisfied: certifi>=2017.4.17 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<2.29,>=2.24.0->pandas-profiling==3.6.2) (2022.12.7)\n",
++      "Requirement already satisfied: urllib3<1.27,>=1.21.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<2.29,>=2.24.0->pandas-profiling==3.6.2) (1.26.15)\n",
++      "Requirement already satisfied: charset-normalizer<4,>=2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<2.29,>=2.24.0->pandas-profiling==3.6.2) (3.1.0)\n",
++      "Requirement already satisfied: idna<4,>=2.5 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<2.29,>=2.24.0->pandas-profiling==3.6.2) (3.4)\n",
++      "Requirement already satisfied: patsy>=0.5.2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from statsmodels<0.14,>=0.13.2->pandas-profiling==3.6.2) (0.5.3)\n",
++      "Requirement already satisfied: PyWavelets in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from imagehash->visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (1.4.1)\n",
++      "Requirement already satisfied: pandas==1.2.3 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (1.2.3)\n",
++      "Requirement already satisfied: python-dateutil>=2.7.3 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas==1.2.3) (2.8.2)\n",
++      "Requirement already satisfied: pytz>=2017.3 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas==1.2.3) (2022.7.1)\n",
++      "Requirement already satisfied: numpy>=1.16.5 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas==1.2.3) (1.23.5)\n",
++      "Requirement already satisfied: six>=1.5 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from python-dateutil>=2.7.3->pandas==1.2.3) (1.16.0)\n"
++     ]
++    }
++   ],
++   "source": [
++    "!pip install wandb==0.13.9\n",
++    "!pip install pandas-profiling==3.6.2\n",
++    "!pip install pandas==1.2.3"
++   ]
++  },
++  {
++   "cell_type": "markdown",
++   "id": "54c4f98a",
++   "metadata": {},
++   "source": [
++    "1. Fetch the artifact we just created (sample.csv) from W&B and read it with pandas:"
++   ]
++  },
++  {
++   "cell_type": "code",
++   "execution_count": 7,
++   "id": "eed98c34",
++   "metadata": {},
++   "outputs": [
++    {
++     "data": {
++      "text/html": [
++       "Finishing last run (ID:v3d3q3rf) before initializing another..."
++      ],
++      "text/plain": [
++       "<IPython.core.display.HTML object>"
++      ]
++     },
++     "metadata": {},
++     "output_type": "display_data"
++    },
++    {
++     "data": {
++      "text/html": [
++       "Waiting for W&B process to finish... <strong style=\"color:green\">(success).</strong>"
++      ],
++      "text/plain": [
++       "<IPython.core.display.HTML object>"
++      ]
++     },
++     "metadata": {},
++     "output_type": "display_data"
++    },
++    {
++     "data": {
++      "application/vnd.jupyter.widget-view+json": {
++       "model_id": "a37b04273ead4a168e477c0394de3fcf",
++       "version_major": 2,
++       "version_minor": 0
++      },
++      "text/plain": [
++       "VBox(children=(Label(value='0.043 MB of 0.043 MB uploaded (0.000 MB deduped)\\r'), FloatProgress(value=1.0, max…"
++      ]
++     },
++     "metadata": {},
++     "output_type": "display_data"
++    },
++    {
++     "data": {
++      "text/html": [
++       " View run <strong style=\"color:#cdcd00\">visionary-lake-13</strong> at: <a href=\"https://wandb.ai/annyang1963/nyc_airbnb/runs/v3d3q3rf\" target=\"_blank\">https://wandb.ai/annyang1963/nyc_airbnb/runs/v3d3q3rf</a><br/>Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 1 other file(s)"
++      ],
++      "text/plain": [
++       "<IPython.core.display.HTML object>"
++      ]
++     },
++     "metadata": {},
++     "output_type": "display_data"
++    },
++    {
++     "data": {
++      "text/html": [
++       "Find logs at: <code>./wandb/run-20230412_183324-v3d3q3rf/logs</code>"
++      ],
++      "text/plain": [
++       "<IPython.core.display.HTML object>"
++      ]
++     },
++     "metadata": {},
++     "output_type": "display_data"
++    },
++    {
++     "data": {
++      "text/html": [
++       "Successfully finished last run (ID:v3d3q3rf). Initializing new run:<br/>"
++      ],
++      "text/plain": [
++       "<IPython.core.display.HTML object>"
++      ]
++     },
++     "metadata": {},
++     "output_type": "display_data"
++    },
++    {
++     "data": {
++      "application/vnd.jupyter.widget-view+json": {
++       "model_id": "110e5eb88c9f4f9bada3b547c8cd62eb",
++       "version_major": 2,
++       "version_minor": 0
++      },
++      "text/plain": [
++       "VBox(children=(Label(value='Waiting for wandb.init()...\\r'), FloatProgress(value=0.016671707533333326, max=1.0…"
++      ]
++     },
++     "metadata": {},
++     "output_type": "display_data"
++    },
++    {
++     "data": {
++      "text/html": [
++       "wandb version 0.14.2 is available!  To upgrade, please run:\n",
++       " $ pip install wandb --upgrade"
++      ],
++      "text/plain": [
++       "<IPython.core.display.HTML object>"
++      ]
++     },
++     "metadata": {},
++     "output_type": "display_data"
++    },
++    {
++     "data": {
++      "text/html": [
++       "Tracking run with wandb version 0.13.9"
++      ],
++      "text/plain": [
++       "<IPython.core.display.HTML object>"
++      ]
++     },
++     "metadata": {},
++     "output_type": "display_data"
++    },
++    {
++     "data": {
++      "text/html": [
++       "Run data is saved locally in <code>/Users/hyang/Huimin project/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20230412_183404-cl95qrqk</code>"
++      ],
++      "text/plain": [
++       "<IPython.core.display.HTML object>"
++      ]
++     },
++     "metadata": {},
++     "output_type": "display_data"
++    },
++    {
++     "data": {
++      "text/html": [
++       "Syncing run <strong><a href=\"https://wandb.ai/annyang1963/nyc_airbnb/runs/cl95qrqk\" target=\"_blank\">summer-galaxy-14</a></strong> to <a href=\"https://wandb.ai/annyang1963/nyc_airbnb\" target=\"_blank\">Weights & Biases</a> (<a href=\"https://wandb.me/run\" target=\"_blank\">docs</a>)<br/>"
++      ],
++      "text/plain": [
++       "<IPython.core.display.HTML object>"
++      ]
++     },
++     "metadata": {},
++     "output_type": "display_data"
++    },
++    {
++     "data": {
++      "text/html": [
++       " View project at <a href=\"https://wandb.ai/annyang1963/nyc_airbnb\" target=\"_blank\">https://wandb.ai/annyang1963/nyc_airbnb</a>"
++      ],
++      "text/plain": [
++       "<IPython.core.display.HTML object>"
++      ]
++     },
++     "metadata": {},
++     "output_type": "display_data"
++    },
++    {
++     "data": {
++      "text/html": [
++       " View run at <a href=\"https://wandb.ai/annyang1963/nyc_airbnb/runs/cl95qrqk\" target=\"_blank\">https://wandb.ai/annyang1963/nyc_airbnb/runs/cl95qrqk</a>"
++      ],
++      "text/plain": [
++       "<IPython.core.display.HTML object>"
++      ]
++     },
++     "metadata": {},
++     "output_type": "display_data"
++    }
++   ],
++   "source": [
++    "import wandb\n",
++    "import pandas as pd\n",
++    "# Note that we use save_code=True in the call to wandb.init so the notebook is uploaded and versioned by W&B\n",
++    "run = wandb.init(project=\"nyc_airbnb\", group=\"eda\", save_code=True)\n",
++    "local_path = wandb.use_artifact(\"sample.csv:latest\").file()\n",
++    "df = pd.read_csv(local_path)"
++   ]
++  },
++  {
++   "cell_type": "markdown",
++   "id": "472b8c0d",
++   "metadata": {},
++   "source": [
++    "2. Explore the data in df"
++   ]
++  },
++  {
++   "cell_type": "code",
++   "execution_count": 8,
++   "id": "e7902159",
++   "metadata": {},
++   "outputs": [
++    {
++     "name": "stdout",
++     "output_type": "stream",
++     "text": [
++      "<class 'pandas.core.frame.DataFrame'>\n",
++      "RangeIndex: 20000 entries, 0 to 19999\n",
++      "Data columns (total 16 columns):\n",
++      " #   Column                          Non-Null Count  Dtype  \n",
++      "---  ------                          --------------  -----  \n",
++      " 0   id                              20000 non-null  int64  \n",
++      " 1   name                            19993 non-null  object \n",
++      " 2   host_id                         20000 non-null  int64  \n",
++      " 3   host_name                       19992 non-null  object \n",
++      " 4   neighbourhood_group             20000 non-null  object \n",
++      " 5   neighbourhood                   20000 non-null  object \n",
++      " 6   latitude                        20000 non-null  float64\n",
++      " 7   longitude                       20000 non-null  float64\n",
++      " 8   room_type                       20000 non-null  object \n",
++      " 9   price                           20000 non-null  int64  \n",
++      " 10  minimum_nights                  20000 non-null  int64  \n",
++      " 11  number_of_reviews               20000 non-null  int64  \n",
++      " 12  last_review                     15877 non-null  object \n",
++      " 13  reviews_per_month               15877 non-null  float64\n",
++      " 14  calculated_host_listings_count  20000 non-null  int64  \n",
++      " 15  availability_365                20000 non-null  int64  \n",
++      "dtypes: float64(3), int64(7), object(6)\n",
++      "memory usage: 2.4+ MB\n"
++     ]
++    }
++   ],
++   "source": [
++    "df.info()"
++   ]
++  },
++  {
++   "cell_type": "code",
++   "execution_count": 9,
++   "id": "ef6f1457",
++   "metadata": {},
++   "outputs": [
++    {
++     "data": {
++      "text/html": [
++       "<div>\n",
++       "<style scoped>\n",
++       "    .dataframe tbody tr th:only-of-type {\n",
++       "        vertical-align: middle;\n",
++       "    }\n",
++       "\n",
++       "    .dataframe tbody tr th {\n",
++       "        vertical-align: top;\n",
++       "    }\n",
++       "\n",
++       "    .dataframe thead th {\n",
++       "        text-align: right;\n",
++       "    }\n",
++       "</style>\n",
++       "<table border=\"1\" class=\"dataframe\">\n",
++       "  <thead>\n",
++       "    <tr style=\"text-align: right;\">\n",
++       "      <th></th>\n",
++       "      <th>id</th>\n",
++       "      <th>host_id</th>\n",
++       "      <th>latitude</th>\n",
++       "      <th>longitude</th>\n",
++       "      <th>price</th>\n",
++       "      <th>minimum_nights</th>\n",
++       "      <th>number_of_reviews</th>\n",
++       "      <th>reviews_per_month</th>\n",
++       "      <th>calculated_host_listings_count</th>\n",
++       "      <th>availability_365</th>\n",
++       "    </tr>\n",
++       "  </thead>\n",
++       "  <tbody>\n",
++       "    <tr>\n",
++       "      <th>count</th>\n",
++       "      <td>2.000000e+04</td>\n",
++       "      <td>2.000000e+04</td>\n",
++       "      <td>20000.000000</td>\n",
++       "      <td>20000.000000</td>\n",
++       "      <td>20000.000000</td>\n",
++       "      <td>20000.000000</td>\n",
++       "      <td>20000.000000</td>\n",
++       "      <td>15877.000000</td>\n",
++       "      <td>20000.000000</td>\n",
++       "      <td>20000.000000</td>\n",
++       "    </tr>\n",
++       "    <tr>\n",
++       "      <th>mean</th>\n",
++       "      <td>1.892380e+07</td>\n",
++       "      <td>6.746034e+07</td>\n",
++       "      <td>40.728455</td>\n",
++       "      <td>-73.952125</td>\n",
++       "      <td>153.269050</td>\n",
++       "      <td>6.992100</td>\n",
++       "      <td>23.274100</td>\n",
++       "      <td>1.377446</td>\n",
++       "      <td>6.955450</td>\n",
++       "      <td>112.901200</td>\n",
++       "    </tr>\n",
++       "    <tr>\n",
++       "      <th>std</th>\n",
++       "      <td>1.101223e+07</td>\n",
++       "      <td>7.857936e+07</td>\n",
++       "      <td>0.054755</td>\n",
++       "      <td>0.046559</td>\n",
++       "      <td>243.325609</td>\n",
++       "      <td>21.645449</td>\n",
++       "      <td>44.927793</td>\n",
++       "      <td>1.683006</td>\n",
++       "      <td>32.433831</td>\n",
++       "      <td>131.762226</td>\n",
++       "    </tr>\n",
++       "    <tr>\n",
++       "      <th>min</th>\n",
++       "      <td>2.539000e+03</td>\n",
++       "      <td>2.571000e+03</td>\n",
++       "      <td>40.508730</td>\n",
++       "      <td>-74.239140</td>\n",
++       "      <td>0.000000</td>\n",
++       "      <td>1.000000</td>\n",
++       "      <td>0.000000</td>\n",
++       "      <td>0.010000</td>\n",
++       "      <td>1.000000</td>\n",
++       "      <td>0.000000</td>\n",
++       "    </tr>\n",
++       "    <tr>\n",
++       "      <th>25%</th>\n",
++       "      <td>9.393540e+06</td>\n",
++       "      <td>7.853718e+06</td>\n",
++       "      <td>40.689420</td>\n",
++       "      <td>-73.983030</td>\n",
++       "      <td>69.000000</td>\n",
++       "      <td>1.000000</td>\n",
++       "      <td>1.000000</td>\n",
++       "      <td>0.190000</td>\n",
++       "      <td>1.000000</td>\n",
++       "      <td>0.000000</td>\n",
++       "    </tr>\n",
++       "    <tr>\n",
++       "      <th>50%</th>\n",
++       "      <td>1.952117e+07</td>\n",
++       "      <td>3.111431e+07</td>\n",
++       "      <td>40.722730</td>\n",
++       "      <td>-73.955640</td>\n",
++       "      <td>105.000000</td>\n",
++       "      <td>2.000000</td>\n",
++       "      <td>5.000000</td>\n",
++       "      <td>0.720000</td>\n",
++       "      <td>1.000000</td>\n",
++       "      <td>44.000000</td>\n",
++       "    </tr>\n",
++       "    <tr>\n",
++       "      <th>75%</th>\n",
++       "      <td>2.912936e+07</td>\n",
++       "      <td>1.068426e+08</td>\n",
++       "      <td>40.762990</td>\n",
++       "      <td>-73.936380</td>\n",
++       "      <td>175.000000</td>\n",
++       "      <td>5.000000</td>\n",
++       "      <td>23.000000</td>\n",
++       "      <td>2.010000</td>\n",
++       "      <td>2.000000</td>\n",
++       "      <td>229.000000</td>\n",
++       "    </tr>\n",
++       "    <tr>\n",
++       "      <th>max</th>\n",
++       "      <td>3.648561e+07</td>\n",
++       "      <td>2.742733e+08</td>\n",
++       "      <td>40.913060</td>\n",
++       "      <td>-73.717950</td>\n",
++       "      <td>10000.000000</td>\n",
++       "      <td>1250.000000</td>\n",
++       "      <td>607.000000</td>\n",
++       "      <td>27.950000</td>\n",
++       "      <td>327.000000</td>\n",
++       "      <td>365.000000</td>\n",
++       "    </tr>\n",
++       "  </tbody>\n",
++       "</table>\n",
++       "</div>"
++      ],
++      "text/plain": [
++       "                 id       host_id      latitude     longitude         price  \\\n",
++       "count  2.000000e+04  2.000000e+04  20000.000000  20000.000000  20000.000000   \n",
++       "mean   1.892380e+07  6.746034e+07     40.728455    -73.952125    153.269050   \n",
++       "std    1.101223e+07  7.857936e+07      0.054755      0.046559    243.325609   \n",
++       "min    2.539000e+03  2.571000e+03     40.508730    -74.239140      0.000000   \n",
++       "25%    9.393540e+06  7.853718e+06     40.689420    -73.983030     69.000000   \n",
++       "50%    1.952117e+07  3.111431e+07     40.722730    -73.955640    105.000000   \n",
++       "75%    2.912936e+07  1.068426e+08     40.762990    -73.936380    175.000000   \n",
++       "max    3.648561e+07  2.742733e+08     40.913060    -73.717950  10000.000000   \n",
++       "\n",
++       "       minimum_nights  number_of_reviews  reviews_per_month  \\\n",
++       "count    20000.000000       20000.000000       15877.000000   \n",
++       "mean         6.992100          23.274100           1.377446   \n",
++       "std         21.645449          44.927793           1.683006   \n",
++       "min          1.000000           0.000000           0.010000   \n",
++       "25%          1.000000           1.000000           0.190000   \n",
++       "50%          2.000000           5.000000           0.720000   \n",
++       "75%          5.000000          23.000000           2.010000   \n",
++       "max       1250.000000         607.000000          27.950000   \n",
++       "\n",
++       "       calculated_host_listings_count  availability_365  \n",
++       "count                    20000.000000      20000.000000  \n",
++       "mean                         6.955450        112.901200  \n",
++       "std                         32.433831        131.762226  \n",
++       "min                          1.000000          0.000000  \n",
++       "25%                          1.000000          0.000000  \n",
++       "50%                          1.000000         44.000000  \n",
++       "75%                          2.000000        229.000000  \n",
++       "max                        327.000000        365.000000  "
++      ]
++     },
++     "execution_count": 9,
++     "metadata": {},
++     "output_type": "execute_result"
++    }
++   ],
++   "source": [
++    "df.describe()"
++   ]
++  },
++  {
++   "cell_type": "code",
++   "execution_count": 10,
++   "id": "13548f59",
++   "metadata": {},
++   "outputs": [
++    {
++     "data": {
++      "text/html": [
++       "<div>\n",
++       "<style scoped>\n",
++       "    .dataframe tbody tr th:only-of-type {\n",
++       "        vertical-align: middle;\n",
++       "    }\n",
++       "\n",
++       "    .dataframe tbody tr th {\n",
++       "        vertical-align: top;\n",
++       "    }\n",
++       "\n",
++       "    .dataframe thead th {\n",
++       "        text-align: right;\n",
++       "    }\n",
++       "</style>\n",
++       "<table border=\"1\" class=\"dataframe\">\n",
++       "  <thead>\n",
++       "    <tr style=\"text-align: right;\">\n",
++       "      <th></th>\n",
++       "      <th>id</th>\n",
++       "      <th>name</th>\n",
++       "      <th>host_id</th>\n",
++       "      <th>host_name</th>\n",
++       "      <th>neighbourhood_group</th>\n",
++       "      <th>neighbourhood</th>\n",
++       "      <th>latitude</th>\n",
++       "      <th>longitude</th>\n",
++       "      <th>room_type</th>\n",
++       "      <th>price</th>\n",
++       "      <th>minimum_nights</th>\n",
++       "      <th>number_of_reviews</th>\n",
++       "      <th>last_review</th>\n",
++       "      <th>reviews_per_month</th>\n",
++       "      <th>calculated_host_listings_count</th>\n",
++       "      <th>availability_365</th>\n",
++       "    </tr>\n",
++       "  </thead>\n",
++       "  <tbody>\n",
++       "    <tr>\n",
++       "      <th>0</th>\n",
++       "      <td>9138664</td>\n",
++       "      <td>Private Lg Room 15 min to Manhattan</td>\n",
++       "      <td>47594947</td>\n",
++       "      <td>Iris</td>\n",
++       "      <td>Queens</td>\n",
++       "      <td>Sunnyside</td>\n",
++       "      <td>40.74271</td>\n",
++       "      <td>-73.92493</td>\n",
++       "      <td>Private room</td>\n",
++       "      <td>74</td>\n",
++       "      <td>2</td>\n",
++       "      <td>6</td>\n",
++       "      <td>2019-05-26</td>\n",
++       "      <td>0.13</td>\n",
++       "      <td>1</td>\n",
++       "      <td>5</td>\n",
++       "    </tr>\n",
++       "    <tr>\n",
++       "      <th>1</th>\n",
++       "      <td>31444015</td>\n",
++       "      <td>TIME SQUARE CHARMING ONE BED IN HELL'S KITCHEN...</td>\n",
++       "      <td>8523790</td>\n",
++       "      <td>Johlex</td>\n",
++       "      <td>Manhattan</td>\n",
++       "      <td>Hell's Kitchen</td>\n",
++       "      <td>40.76682</td>\n",
++       "      <td>-73.98878</td>\n",
++       "      <td>Entire home/apt</td>\n",
++       "      <td>170</td>\n",
++       "      <td>3</td>\n",
++       "      <td>0</td>\n",
++       "      <td>NaN</td>\n",
++       "      <td>NaN</td>\n",
++       "      <td>1</td>\n",
++       "      <td>188</td>\n",
++       "    </tr>\n",
++       "    <tr>\n",
++       "      <th>2</th>\n",
++       "      <td>8741020</td>\n",
++       "      <td>Voted #1 Location Quintessential 1BR W Village...</td>\n",
++       "      <td>45854238</td>\n",
++       "      <td>John</td>\n",
++       "      <td>Manhattan</td>\n",
++       "      <td>West Village</td>\n",
++       "      <td>40.73631</td>\n",
++       "      <td>-74.00611</td>\n",
++       "      <td>Entire home/apt</td>\n",
++       "      <td>245</td>\n",
++       "      <td>3</td>\n",
++       "      <td>51</td>\n",
++       "      <td>2018-09-19</td>\n",
++       "      <td>1.12</td>\n",
++       "      <td>1</td>\n",
++       "      <td>0</td>\n",
++       "    </tr>\n",
++       "    <tr>\n",
++       "      <th>3</th>\n",
++       "      <td>34602077</td>\n",
++       "      <td>Spacious 1 bedroom apartment 15min from Manhattan</td>\n",
++       "      <td>261055465</td>\n",
++       "      <td>Regan</td>\n",
++       "      <td>Queens</td>\n",
++       "      <td>Astoria</td>\n",
++       "      <td>40.76424</td>\n",
++       "      <td>-73.92351</td>\n",
++       "      <td>Entire home/apt</td>\n",
++       "      <td>125</td>\n",
++       "      <td>3</td>\n",
++       "      <td>1</td>\n",
++       "      <td>2019-05-24</td>\n",
++       "      <td>0.65</td>\n",
++       "      <td>1</td>\n",
++       "      <td>13</td>\n",
++       "    </tr>\n",
++       "    <tr>\n",
++       "      <th>4</th>\n",
++       "      <td>23203149</td>\n",
++       "      <td>Big beautiful bedroom in huge Bushwick apartment</td>\n",
++       "      <td>143460</td>\n",
++       "      <td>Megan</td>\n",
++       "      <td>Brooklyn</td>\n",
++       "      <td>Bushwick</td>\n",
++       "      <td>40.69839</td>\n",
++       "      <td>-73.92044</td>\n",
++       "      <td>Private room</td>\n",
++       "      <td>65</td>\n",
++       "      <td>2</td>\n",
++       "      <td>8</td>\n",
++       "      <td>2019-06-23</td>\n",
++       "      <td>0.52</td>\n",
++       "      <td>2</td>\n",
++       "      <td>8</td>\n",
++       "    </tr>\n",
++       "  </tbody>\n",
++       "</table>\n",
++       "</div>"
++      ],
++      "text/plain": [
++       "         id                                               name    host_id  \\\n",
++       "0   9138664                Private Lg Room 15 min to Manhattan   47594947   \n",
++       "1  31444015  TIME SQUARE CHARMING ONE BED IN HELL'S KITCHEN...    8523790   \n",
++       "2   8741020  Voted #1 Location Quintessential 1BR W Village...   45854238   \n",
++       "3  34602077  Spacious 1 bedroom apartment 15min from Manhattan  261055465   \n",
++       "4  23203149   Big beautiful bedroom in huge Bushwick apartment     143460   \n",
++       "\n",
++       "  host_name neighbourhood_group   neighbourhood  latitude  longitude  \\\n",
++       "0      Iris              Queens       Sunnyside  40.74271  -73.92493   \n",
++       "1    Johlex           Manhattan  Hell's Kitchen  40.76682  -73.98878   \n",
++       "2      John           Manhattan    West Village  40.73631  -74.00611   \n",
++       "3     Regan              Queens         Astoria  40.76424  -73.92351   \n",
++       "4     Megan            Brooklyn        Bushwick  40.69839  -73.92044   \n",
++       "\n",
++       "         room_type  price  minimum_nights  number_of_reviews last_review  \\\n",
++       "0     Private room     74               2                  6  2019-05-26   \n",
++       "1  Entire home/apt    170               3                  0         NaN   \n",
++       "2  Entire home/apt    245               3                 51  2018-09-19   \n",
++       "3  Entire home/apt    125               3                  1  2019-05-24   \n",
++       "4     Private room     65               2                  8  2019-06-23   \n",
++       "\n",
++       "   reviews_per_month  calculated_host_listings_count  availability_365  \n",
++       "0               0.13                               1                 5  \n",
++       "1                NaN                               1               188  \n",
++       "2               1.12                               1                 0  \n",
++       "3               0.65                               1                13  \n",
++       "4               0.52                               2                 8  "
++      ]
++     },
++     "execution_count": 10,
++     "metadata": {},
++     "output_type": "execute_result"
++    }
++   ],
++   "source": [
++    "df.head()"
++   ]
++  },
++  {
++   "cell_type": "markdown",
++   "id": "ecfee692",
++   "metadata": {},
++   "source": [
++    "3. What do you notice in the data? Look around and see what you can find.\n",
++    "\n",
++    "> For example, there are missing values in a few columns and the column `last_review` is a date but it is in string format. Look also at the `price` column, and note the outliers. There are some zeros and some very high prices. After talking to your stakeholders, you decide to consider from a minimum of `$10` to a maximum of `$350` per night."
++   ]
++  },
++  {
++   "cell_type": "markdown",
++   "id": "b4bb415f",
++   "metadata": {},
++   "source": [
++    "4. Fix some of the little problems we have found in the data with the following code:"
++   ]
++  },
++  {
++   "cell_type": "code",
++   "execution_count": 11,
++   "id": "4d685317",
++   "metadata": {},
++   "outputs": [],
++   "source": [
++    "# Drop outliers\n",
++    "min_price = 10\n",
++    "max_price = 350\n",
++    "idx = df['price'].between(min_price, max_price)\n",
++    "df = df[idx].copy()\n",
++    "# Convert last_review to datetime\n",
++    "df['last_review'] = pd.to_datetime(df['last_review'])"
++   ]
++  },
++  {
++   "cell_type": "markdown",
++   "id": "17990df4",
++   "metadata": {},
++   "source": [
++    "Note how we did not impute missing values. We will do that in the inference pipeline, so we will be able to handle missing values also in production."
++   ]
++  },
++  {
++   "cell_type": "markdown",
++   "id": "09287f29",
++   "metadata": {},
++   "source": [
++    "5. Check with df.info() that all obvious problems have been solved"
++   ]
++  },
++  {
++   "cell_type": "code",
++   "execution_count": 12,
++   "id": "b83b4970",
++   "metadata": {},
++   "outputs": [
++    {
++     "name": "stdout",
++     "output_type": "stream",
++     "text": [
++      "<class 'pandas.core.frame.DataFrame'>\n",
++      "Int64Index: 19001 entries, 0 to 19999\n",
++      "Data columns (total 16 columns):\n",
++      " #   Column                          Non-Null Count  Dtype         \n",
++      "---  ------                          --------------  -----         \n",
++      " 0   id                              19001 non-null  int64         \n",
++      " 1   name                            18994 non-null  object        \n",
++      " 2   host_id                         19001 non-null  int64         \n",
++      " 3   host_name                       18993 non-null  object        \n",
++      " 4   neighbourhood_group             19001 non-null  object        \n",
++      " 5   neighbourhood                   19001 non-null  object        \n",
++      " 6   latitude                        19001 non-null  float64       \n",
++      " 7   longitude                       19001 non-null  float64       \n",
++      " 8   room_type                       19001 non-null  object        \n",
++      " 9   price                           19001 non-null  int64         \n",
++      " 10  minimum_nights                  19001 non-null  int64         \n",
++      " 11  number_of_reviews               19001 non-null  int64         \n",
++      " 12  last_review                     15243 non-null  datetime64[ns]\n",
++      " 13  reviews_per_month               15243 non-null  float64       \n",
++      " 14  calculated_host_listings_count  19001 non-null  int64         \n",
++      " 15  availability_365                19001 non-null  int64         \n",
++      "dtypes: datetime64[ns](1), float64(3), int64(7), object(5)\n",
++      "memory usage: 2.5+ MB\n"
++     ]
++    }
++   ],
++   "source": [
++    "df.info()"
++   ]
++  },
++  {
++   "cell_type": "markdown",
++   "id": "d727e697",
++   "metadata": {},
++   "source": [
++    "6. Terminate the run by running `run.finish()`"
++   ]
++  },
++  {
++   "cell_type": "code",
++   "execution_count": 13,
++   "id": "48b38586",
++   "metadata": {},
++   "outputs": [
++    {
++     "data": {
++      "text/html": [
++       "Waiting for W&B process to finish... <strong style=\"color:green\">(success).</strong>"
++      ],
++      "text/plain": [
++       "<IPython.core.display.HTML object>"
++      ]
++     },
++     "metadata": {},
++     "output_type": "display_data"
++    },
++    {
++     "data": {
++      "application/vnd.jupyter.widget-view+json": {
++       "model_id": "0a45b778e49c4dfeb3cc16a0684831b0",
++       "version_major": 2,
++       "version_minor": 0
++      },
++      "text/plain": [
++       "VBox(children=(Label(value='0.043 MB of 0.057 MB uploaded (0.000 MB deduped)\\r'), FloatProgress(value=0.748456…"
++      ]
++     },
++     "metadata": {},
++     "output_type": "display_data"
++    },
++    {
++     "data": {
++      "text/html": [
++       " View run <strong style=\"color:#cdcd00\">summer-galaxy-14</strong> at: <a href=\"https://wandb.ai/annyang1963/nyc_airbnb/runs/cl95qrqk\" target=\"_blank\">https://wandb.ai/annyang1963/nyc_airbnb/runs/cl95qrqk</a><br/>Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)"
++      ],
++      "text/plain": [
++       "<IPython.core.display.HTML object>"
++      ]
++     },
++     "metadata": {},
++     "output_type": "display_data"
++    },
++    {
++     "data": {
++      "text/html": [
++       "Find logs at: <code>./wandb/run-20230412_183404-cl95qrqk/logs</code>"
++      ],
++      "text/plain": [
++       "<IPython.core.display.HTML object>"
++      ]
++     },
++     "metadata": {},
++     "output_type": "display_data"
++    }
++   ],
++   "source": [
++    "run.finish()"
++   ]
++  },
++  {
++   "cell_type": "markdown",
++   "id": "13f82b21",
++   "metadata": {},
++   "source": [
++    "7. Save the notebook."
++   ]
++  }
++ ],
++ "metadata": {
++  "kernelspec": {
++   "display_name": "Python 3 (ipykernel)",
++   "language": "python",
++   "name": "python3"
++  },
++  "language_info": {
++   "codemirror_mode": {
++    "name": "ipython",
++    "version": 3
++   },
++   "file_extension": ".py",
++   "mimetype": "text/x-python",
++   "name": "python",
++   "nbconvert_exporter": "python",
++   "pygments_lexer": "ipython3",
++   "version": "3.9.15"
++  }
++ },
++ "nbformat": 4,
++ "nbformat_minor": 5
++}
+diff --git a/src/eda/eda.ipynb b/src/eda/eda.ipynb
+index 06abc38..2ec018f 100644
+--- a/src/eda/eda.ipynb
++++ b/src/eda/eda.ipynb
+@@ -2,7 +2,7 @@
+  "cells": [
+   {
+    "cell_type": "code",
+-   "execution_count": 6,
++   "execution_count": null,
+    "id": "1f72a955",
+    "metadata": {
+     "scrolled": true,
+@@ -13,72 +13,194 @@
+      "name": "stdout",
+      "output_type": "stream",
+      "text": [
+-      "Requirement already satisfied: wandb==0.13.9 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (0.13.9)\n",
+-      "Requirement already satisfied: setproctitle in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (1.3.2)\n",
+-      "Requirement already satisfied: protobuf!=4.21.0,<5,>=3.19.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (4.21.12)\n",
+-      "Requirement already satisfied: docker-pycreds>=0.4.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (0.4.0)\n",
+-      "Requirement already satisfied: setuptools in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (59.8.0)\n",
+-      "Requirement already satisfied: pathtools in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (0.1.2)\n",
+-      "Requirement already satisfied: Click!=8.0.0,>=7.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (8.1.3)\n",
+-      "Requirement already satisfied: GitPython>=1.0.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (3.1.31)\n",
+-      "Requirement already satisfied: appdirs>=1.4.3 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (1.4.4)\n",
+-      "Requirement already satisfied: requests<3,>=2.0.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (2.28.2)\n",
+-      "Requirement already satisfied: typing-extensions in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (4.5.0)\n",
+-      "Requirement already satisfied: PyYAML in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (6.0)\n",
+-      "Requirement already satisfied: sentry-sdk>=1.0.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (1.19.1)\n",
+-      "Requirement already satisfied: psutil>=5.0.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from wandb==0.13.9) (5.9.4)\n",
+-      "Requirement already satisfied: six>=1.4.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from docker-pycreds>=0.4.0->wandb==0.13.9) (1.16.0)\n",
+-      "Requirement already satisfied: gitdb<5,>=4.0.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from GitPython>=1.0.0->wandb==0.13.9) (4.0.10)\n",
+-      "Requirement already satisfied: smmap<6,>=3.0.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from gitdb<5,>=4.0.1->GitPython>=1.0.0->wandb==0.13.9) (3.0.5)\n",
+-      "Requirement already satisfied: idna<4,>=2.5 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<3,>=2.0.0->wandb==0.13.9) (3.4)\n",
+-      "Requirement already satisfied: urllib3<1.27,>=1.21.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<3,>=2.0.0->wandb==0.13.9) (1.26.15)\n",
+-      "Requirement already satisfied: charset-normalizer<4,>=2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<3,>=2.0.0->wandb==0.13.9) (3.1.0)\n",
+-      "Requirement already satisfied: certifi>=2017.4.17 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<3,>=2.0.0->wandb==0.13.9) (2022.12.7)\n",
+-      "Requirement already satisfied: pandas-profiling==3.6.2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (3.6.2)\n",
+-      "Requirement already satisfied: multimethod<1.10,>=1.4 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (1.9.1)\n",
+-      "Requirement already satisfied: jinja2<3.2,>=2.11.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (2.11.3)\n",
+-      "Requirement already satisfied: matplotlib<3.7,>=3.2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (3.6.2)\n",
+-      "Requirement already satisfied: scipy<1.10,>=1.4.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (1.9.3)\n",
+-      "Requirement already satisfied: htmlmin==0.1.12 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (0.1.12)\n",
+-      "Requirement already satisfied: requests<2.29,>=2.24.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (2.28.2)\n",
+-      "Requirement already satisfied: numpy<1.24,>=1.16.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (1.23.5)\n",
+-      "Requirement already satisfied: seaborn<0.13,>=0.10.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (0.11.1)\n",
+-      "Requirement already satisfied: statsmodels<0.14,>=0.13.2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (0.13.5)\n",
+-      "Requirement already satisfied: pydantic<1.11,>=1.8.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (1.10.7)\n",
+-      "Requirement already satisfied: pandas!=1.4.0,<1.6,>1.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (1.2.3)\n",
+-      "Requirement already satisfied: phik<0.13,>=0.11.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (0.12.3)\n",
+-      "Requirement already satisfied: typeguard<2.14,>=2.13.2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (2.13.3)\n",
+-      "Requirement already satisfied: PyYAML<6.1,>=5.0.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (6.0)\n",
+-      "Requirement already satisfied: visions[type_image_path]==0.7.5 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (0.7.5)\n",
+-      "Requirement already satisfied: tqdm<4.65,>=4.48.2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas-profiling==3.6.2) (4.64.1)\n",
+-      "Requirement already satisfied: attrs>=19.3.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (22.2.0)\n",
+-      "Requirement already satisfied: networkx>=2.4 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (3.1)\n",
+-      "Requirement already satisfied: tangled-up-in-unicode>=0.0.4 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (0.2.0)\n",
+-      "Requirement already satisfied: Pillow in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (9.5.0)\n",
+-      "Requirement already satisfied: imagehash in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (4.3.1)\n",
+-      "Requirement already satisfied: MarkupSafe>=0.23 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from jinja2<3.2,>=2.11.1->pandas-profiling==3.6.2) (1.1.1)\n",
+-      "Requirement already satisfied: pyparsing>=2.2.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (3.0.9)\n",
+-      "Requirement already satisfied: python-dateutil>=2.7 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (2.8.2)\n",
+-      "Requirement already satisfied: contourpy>=1.0.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (1.0.7)\n",
+-      "Requirement already satisfied: packaging>=20.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (22.0)\n",
+-      "Requirement already satisfied: kiwisolver>=1.0.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (1.4.4)\n",
+-      "Requirement already satisfied: fonttools>=4.22.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (4.39.3)\n",
+-      "Requirement already satisfied: cycler>=0.10 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (0.11.0)\n",
+-      "Requirement already satisfied: pytz>=2017.3 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas!=1.4.0,<1.6,>1.1->pandas-profiling==3.6.2) (2022.7.1)\n",
+-      "Requirement already satisfied: joblib>=0.14.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from phik<0.13,>=0.11.1->pandas-profiling==3.6.2) (1.2.0)\n",
+-      "Requirement already satisfied: typing-extensions>=4.2.0 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pydantic<1.11,>=1.8.1->pandas-profiling==3.6.2) (4.5.0)\n",
+-      "Requirement already satisfied: six>=1.5 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from python-dateutil>=2.7->matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (1.16.0)\n",
+-      "Requirement already satisfied: certifi>=2017.4.17 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<2.29,>=2.24.0->pandas-profiling==3.6.2) (2022.12.7)\n",
+-      "Requirement already satisfied: urllib3<1.27,>=1.21.1 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<2.29,>=2.24.0->pandas-profiling==3.6.2) (1.26.15)\n",
+-      "Requirement already satisfied: charset-normalizer<4,>=2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<2.29,>=2.24.0->pandas-profiling==3.6.2) (3.1.0)\n",
+-      "Requirement already satisfied: idna<4,>=2.5 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from requests<2.29,>=2.24.0->pandas-profiling==3.6.2) (3.4)\n",
+-      "Requirement already satisfied: patsy>=0.5.2 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from statsmodels<0.14,>=0.13.2->pandas-profiling==3.6.2) (0.5.3)\n",
+-      "Requirement already satisfied: PyWavelets in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from imagehash->visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (1.4.1)\n",
+-      "Requirement already satisfied: pandas==1.2.3 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (1.2.3)\n",
+-      "Requirement already satisfied: python-dateutil>=2.7.3 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas==1.2.3) (2.8.2)\n",
+-      "Requirement already satisfied: pytz>=2017.3 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas==1.2.3) (2022.7.1)\n",
+-      "Requirement already satisfied: numpy>=1.16.5 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from pandas==1.2.3) (1.23.5)\n",
+-      "Requirement already satisfied: six>=1.5 in /opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages (from python-dateutil>=2.7.3->pandas==1.2.3) (1.16.0)\n"
++      "Collecting wandb==0.13.9\n",
++      "  Downloading wandb-0.13.9-py2.py3-none-any.whl.metadata (7.7 kB)\n",
++      "Requirement already satisfied: Click!=8.0.0,>=7.0 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from wandb==0.13.9) (8.1.7)\n",
++      "Requirement already satisfied: GitPython>=1.0.0 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from wandb==0.13.9) (3.1.43)\n",
++      "Requirement already satisfied: requests<3,>=2.0.0 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from wandb==0.13.9) (2.32.3)\n",
++      "Requirement already satisfied: psutil>=5.0.0 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from wandb==0.13.9) (6.0.0)\n",
++      "Requirement already satisfied: sentry-sdk>=1.0.0 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from wandb==0.13.9) (2.10.0)\n",
++      "Requirement already satisfied: docker-pycreds>=0.4.0 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from wandb==0.13.9) (0.4.0)\n",
++      "Requirement already satisfied: PyYAML in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from wandb==0.13.9) (6.0.1)\n",
++      "Collecting pathtools (from wandb==0.13.9)\n",
++      "  Downloading pathtools-0.1.2.tar.gz (11 kB)\n",
++      "  Preparing metadata (setup.py) ... \u001b[?25ldone\n",
++      "\u001b[?25hRequirement already satisfied: setproctitle in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from wandb==0.13.9) (1.3.3)\n",
++      "Requirement already satisfied: setuptools in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from wandb==0.13.9) (71.0.4)\n",
++      "Collecting appdirs>=1.4.3 (from wandb==0.13.9)\n",
++      "  Downloading appdirs-1.4.4-py2.py3-none-any.whl.metadata (9.0 kB)\n",
++      "Requirement already satisfied: typing-extensions in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from wandb==0.13.9) (4.12.2)\n",
++      "Requirement already satisfied: protobuf!=4.21.0,<5,>=3.19.0 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from wandb==0.13.9) (4.25.3)\n",
++      "Requirement already satisfied: six>=1.4.0 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from docker-pycreds>=0.4.0->wandb==0.13.9) (1.16.0)\n",
++      "Requirement already satisfied: gitdb<5,>=4.0.1 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from GitPython>=1.0.0->wandb==0.13.9) (4.0.11)\n",
++      "Requirement already satisfied: charset-normalizer<4,>=2 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from requests<3,>=2.0.0->wandb==0.13.9) (3.3.2)\n",
++      "Requirement already satisfied: idna<4,>=2.5 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from requests<3,>=2.0.0->wandb==0.13.9) (3.7)\n",
++      "Requirement already satisfied: urllib3<3,>=1.21.1 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from requests<3,>=2.0.0->wandb==0.13.9) (2.2.2)\n",
++      "Requirement already satisfied: certifi>=2017.4.17 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from requests<3,>=2.0.0->wandb==0.13.9) (2024.7.4)\n",
++      "Requirement already satisfied: smmap<6,>=3.0.1 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from gitdb<5,>=4.0.1->GitPython>=1.0.0->wandb==0.13.9) (5.0.0)\n",
++      "Downloading wandb-0.13.9-py2.py3-none-any.whl (2.0 MB)\n",
++      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.0/2.0 MB\u001b[0m \u001b[31m5.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0ma \u001b[36m0:00:01\u001b[0m\n",
++      "\u001b[?25hDownloading appdirs-1.4.4-py2.py3-none-any.whl (9.6 kB)\n",
++      "Building wheels for collected packages: pathtools\n",
++      "  Building wheel for pathtools (setup.py) ... \u001b[?25ldone\n",
++      "\u001b[?25h  Created wheel for pathtools: filename=pathtools-0.1.2-py3-none-any.whl size=8792 sha256=d05f057d26d5b894e2086ca6cdec8dfd3d2e8c4bd0cb80a89a6509d78e4b8cdb\n",
++      "  Stored in directory: /Users/marioarriaga/Library/Caches/pip/wheels/4c/8e/7e/72fbc243e1aeecae64a96875432e70d4e92f3d2d18123be004\n",
++      "Successfully built pathtools\n",
++      "Installing collected packages: pathtools, appdirs, wandb\n",
++      "  Attempting uninstall: wandb\n",
++      "    Found existing installation: wandb 0.17.5\n",
++      "    Uninstalling wandb-0.17.5:\n",
++      "      Successfully uninstalled wandb-0.17.5\n",
++      "Successfully installed appdirs-1.4.4 pathtools-0.1.2 wandb-0.13.9\n",
++      "Collecting pandas-profiling==3.6.2\n",
++      "  Downloading pandas_profiling-3.6.2-py2.py3-none-any.whl.metadata (19 kB)\n",
++      "Collecting scipy<1.10,>=1.4.1 (from pandas-profiling==3.6.2)\n",
++      "  Downloading scipy-1.9.3-cp38-cp38-macosx_12_0_arm64.whl.metadata (53 kB)\n",
++      "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m53.4/53.4 kB\u001b[0m \u001b[31m1.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
++      "\u001b[?25hCollecting pandas!=1.4.0,<1.6,>1.1 (from pandas-profiling==3.6.2)\n",
++      "  Downloading pandas-1.5.3-cp38-cp38-macosx_11_0_arm64.whl.metadata (11 kB)\n",
++      "Collecting matplotlib<3.7,>=3.2 (from pandas-profiling==3.6.2)\n",
++      "  Downloading matplotlib-3.6.3-cp38-cp38-macosx_11_0_arm64.whl.metadata (6.8 kB)\n",
++      "Collecting pydantic<1.11,>=1.8.1 (from pandas-profiling==3.6.2)\n",
++      "  Downloading pydantic-1.10.17-cp38-cp38-macosx_11_0_arm64.whl.metadata (151 kB)\n",
++      "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m151.6/151.6 kB\u001b[0m \u001b[31m5.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
++      "\u001b[?25hRequirement already satisfied: PyYAML<6.1,>=5.0.0 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from pandas-profiling==3.6.2) (6.0.1)\n",
++      "Requirement already satisfied: jinja2<3.2,>=2.11.1 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from pandas-profiling==3.6.2) (3.1.4)\n",
++      "Collecting visions==0.7.5 (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2)\n",
++      "  Downloading visions-0.7.5-py3-none-any.whl.metadata (6.3 kB)\n",
++      "Collecting numpy<1.24,>=1.16.0 (from pandas-profiling==3.6.2)\n",
++      "  Downloading numpy-1.23.5-cp38-cp38-macosx_11_0_arm64.whl.metadata (2.3 kB)\n",
++      "Collecting htmlmin==0.1.12 (from pandas-profiling==3.6.2)\n",
++      "  Downloading htmlmin-0.1.12.tar.gz (19 kB)\n",
++      "  Preparing metadata (setup.py) ... \u001b[?25ldone\n",
++      "\u001b[?25hCollecting phik<0.13,>=0.11.1 (from pandas-profiling==3.6.2)\n",
++      "  Downloading phik-0.12.4-cp38-cp38-macosx_11_0_arm64.whl.metadata (5.6 kB)\n",
++      "Collecting requests<2.29,>=2.24.0 (from pandas-profiling==3.6.2)\n",
++      "  Downloading requests-2.28.2-py3-none-any.whl.metadata (4.6 kB)\n",
++      "Collecting tqdm<4.65,>=4.48.2 (from pandas-profiling==3.6.2)\n",
++      "  Downloading tqdm-4.64.1-py2.py3-none-any.whl.metadata (57 kB)\n",
++      "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m57.3/57.3 kB\u001b[0m \u001b[31m8.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
++      "\u001b[?25hCollecting seaborn<0.13,>=0.10.1 (from pandas-profiling==3.6.2)\n",
++      "  Downloading seaborn-0.12.2-py3-none-any.whl.metadata (5.4 kB)\n",
++      "Collecting multimethod<1.10,>=1.4 (from pandas-profiling==3.6.2)\n",
++      "  Downloading multimethod-1.9.1-py3-none-any.whl.metadata (9.2 kB)\n",
++      "Collecting statsmodels<0.14,>=0.13.2 (from pandas-profiling==3.6.2)\n",
++      "  Downloading statsmodels-0.13.5-cp38-cp38-macosx_11_0_arm64.whl.metadata (9.5 kB)\n",
++      "Collecting typeguard<2.14,>=2.13.2 (from pandas-profiling==3.6.2)\n",
++      "  Downloading typeguard-2.13.3-py3-none-any.whl.metadata (3.6 kB)\n",
++      "Requirement already satisfied: attrs>=19.3.0 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from visions==0.7.5->visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (23.2.0)\n",
++      "Collecting networkx>=2.4 (from visions==0.7.5->visions[type_image_path]==0.7.5->pandas-profiling==3.6.2)\n",
++      "  Downloading networkx-3.1-py3-none-any.whl.metadata (5.3 kB)\n",
++      "Collecting tangled-up-in-unicode>=0.0.4 (from visions==0.7.5->visions[type_image_path]==0.7.5->pandas-profiling==3.6.2)\n",
++      "  Downloading tangled_up_in_unicode-0.2.0-py3-none-any.whl.metadata (4.8 kB)\n",
++      "\u001b[33mWARNING: visions 0.7.5 does not provide the extra 'type-image-path'\u001b[0m\u001b[33m\n",
++      "\u001b[0mCollecting imagehash (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2)\n",
++      "  Downloading ImageHash-4.3.1-py2.py3-none-any.whl.metadata (8.0 kB)\n",
++      "Requirement already satisfied: Pillow in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from visions[type_image_path]==0.7.5->pandas-profiling==3.6.2) (10.4.0)\n",
++      "Requirement already satisfied: MarkupSafe>=2.0 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from jinja2<3.2,>=2.11.1->pandas-profiling==3.6.2) (2.1.5)\n",
++      "Requirement already satisfied: contourpy>=1.0.1 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (1.1.1)\n",
++      "Requirement already satisfied: cycler>=0.10 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (0.12.1)\n",
++      "Requirement already satisfied: fonttools>=4.22.0 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (4.53.1)\n",
++      "Requirement already satisfied: kiwisolver>=1.0.1 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (1.4.5)\n",
++      "Requirement already satisfied: packaging>=20.0 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (24.1)\n",
++      "Requirement already satisfied: pyparsing>=2.2.1 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (3.1.2)\n",
++      "Requirement already satisfied: python-dateutil>=2.7 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from matplotlib<3.7,>=3.2->pandas-profiling==3.6.2) (2.9.0)\n",
++      "Requirement already satisfied: pytz>=2020.1 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from pandas!=1.4.0,<1.6,>1.1->pandas-profiling==3.6.2) (2024.1)\n",
++      "Requirement already satisfied: joblib>=0.14.1 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from phik<0.13,>=0.11.1->pandas-profiling==3.6.2) (1.4.2)\n",
++      "Requirement already satisfied: typing-extensions>=4.2.0 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from pydantic<1.11,>=1.8.1->pandas-profiling==3.6.2) (4.12.2)\n",
++      "Requirement already satisfied: charset-normalizer<4,>=2 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from requests<2.29,>=2.24.0->pandas-profiling==3.6.2) (3.3.2)\n",
++      "Requirement already satisfied: idna<4,>=2.5 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from requests<2.29,>=2.24.0->pandas-profiling==3.6.2) (3.7)\n",
++      "Collecting urllib3<1.27,>=1.21.1 (from requests<2.29,>=2.24.0->pandas-profiling==3.6.2)\n",
++      "  Downloading urllib3-1.26.19-py2.py3-none-any.whl.metadata (49 kB)\n",
++      "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m49.3/49.3 kB\u001b[0m \u001b[31m8.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
++      "\u001b[?25hRequirement already satisfied: certifi>=2017.4.17 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from requests<2.29,>=2.24.0->pandas-profiling==3.6.2) (2024.7.4)\n",
++      "Collecting patsy>=0.5.2 (from statsmodels<0.14,>=0.13.2->pandas-profiling==3.6.2)\n",
++      "  Using cached patsy-0.5.6-py2.py3-none-any.whl.metadata (3.5 kB)\n",
++      "Requirement already satisfied: six in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from patsy>=0.5.2->statsmodels<0.14,>=0.13.2->pandas-profiling==3.6.2) (1.16.0)\n",
++      "Collecting PyWavelets (from imagehash->visions[type_image_path]==0.7.5->pandas-profiling==3.6.2)\n",
++      "  Downloading PyWavelets-1.4.1-cp38-cp38-macosx_11_0_arm64.whl.metadata (1.9 kB)\n",
++      "Downloading pandas_profiling-3.6.2-py2.py3-none-any.whl (328 kB)\n",
++      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m328.7/328.7 kB\u001b[0m \u001b[31m11.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
++      "\u001b[?25hDownloading visions-0.7.5-py3-none-any.whl (102 kB)\n",
++      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m102.7/102.7 kB\u001b[0m \u001b[31m16.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
++      "\u001b[?25hDownloading matplotlib-3.6.3-cp38-cp38-macosx_11_0_arm64.whl (7.2 MB)\n",
++      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m7.2/7.2 MB\u001b[0m \u001b[31m15.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0ma \u001b[36m0:00:01\u001b[0m\n",
++      "\u001b[?25hDownloading multimethod-1.9.1-py3-none-any.whl (10 kB)\n",
++      "Downloading numpy-1.23.5-cp38-cp38-macosx_11_0_arm64.whl (13.3 MB)\n",
++      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m13.3/13.3 MB\u001b[0m \u001b[31m21.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m00:01\u001b[0m00:01\u001b[0m\n",
++      "\u001b[?25hDownloading pandas-1.5.3-cp38-cp38-macosx_11_0_arm64.whl (10.8 MB)\n",
++      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m10.8/10.8 MB\u001b[0m \u001b[31m9.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m00:01\u001b[0m0:01\u001b[0mm\n",
++      "\u001b[?25hDownloading phik-0.12.4-cp38-cp38-macosx_11_0_arm64.whl (655 kB)\n",
++      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m655.9/655.9 kB\u001b[0m \u001b[31m54.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
++      "\u001b[?25hDownloading pydantic-1.10.17-cp38-cp38-macosx_11_0_arm64.whl (2.3 MB)\n",
++      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.3/2.3 MB\u001b[0m \u001b[31m27.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m00:01\u001b[0m00:01\u001b[0m\n",
++      "\u001b[?25hDownloading requests-2.28.2-py3-none-any.whl (62 kB)\n",
++      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m62.8/62.8 kB\u001b[0m \u001b[31m6.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
++      "\u001b[?25hDownloading scipy-1.9.3-cp38-cp38-macosx_12_0_arm64.whl (28.5 MB)\n",
++      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m28.5/28.5 MB\u001b[0m \u001b[31m23.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m00:01\u001b[0m00:01\u001b[0m\n",
++      "\u001b[?25hDownloading seaborn-0.12.2-py3-none-any.whl (293 kB)\n",
++      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m293.3/293.3 kB\u001b[0m \u001b[31m23.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
++      "\u001b[?25hDownloading statsmodels-0.13.5-cp38-cp38-macosx_11_0_arm64.whl (9.1 MB)\n",
++      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m9.1/9.1 MB\u001b[0m \u001b[31m22.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m00:01\u001b[0m00:01\u001b[0mm\n",
++      "\u001b[?25hDownloading tqdm-4.64.1-py2.py3-none-any.whl (78 kB)\n",
++      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m78.5/78.5 kB\u001b[0m \u001b[31m9.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
++      "\u001b[?25hDownloading typeguard-2.13.3-py3-none-any.whl (17 kB)\n",
++      "Downloading networkx-3.1-py3-none-any.whl (2.1 MB)\n",
++      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.1/2.1 MB\u001b[0m \u001b[31m59.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
++      "\u001b[?25hUsing cached patsy-0.5.6-py2.py3-none-any.whl (233 kB)\n",
++      "Downloading tangled_up_in_unicode-0.2.0-py3-none-any.whl (4.7 MB)\n",
++      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m4.7/4.7 MB\u001b[0m \u001b[31m69.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0ma \u001b[36m0:00:01\u001b[0m\n",
++      "\u001b[?25hDownloading urllib3-1.26.19-py2.py3-none-any.whl (143 kB)\n",
++      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m143.9/143.9 kB\u001b[0m \u001b[31m18.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
++      "\u001b[?25hDownloading ImageHash-4.3.1-py2.py3-none-any.whl (296 kB)\n",
++      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m296.5/296.5 kB\u001b[0m \u001b[31m27.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
++      "\u001b[?25hDownloading PyWavelets-1.4.1-cp38-cp38-macosx_11_0_arm64.whl (4.3 MB)\n",
++      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m4.3/4.3 MB\u001b[0m \u001b[31m48.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0ma \u001b[36m0:00:01\u001b[0m\n",
++      "\u001b[?25hBuilding wheels for collected packages: htmlmin\n",
++      "  Building wheel for htmlmin (setup.py) ... \u001b[?25ldone\n",
++      "\u001b[?25h  Created wheel for htmlmin: filename=htmlmin-0.1.12-py3-none-any.whl size=27081 sha256=aeb374c2f664f74700df9992d81f7b732c9d5131772dce6224236f339821ba87\n",
++      "  Stored in directory: /Users/marioarriaga/Library/Caches/pip/wheels/23/14/6e/4be5bfeeb027f4939a01764b48edd5996acf574b0913fe5243\n",
++      "Successfully built htmlmin\n",
++      "Installing collected packages: htmlmin, urllib3, typeguard, tqdm, tangled-up-in-unicode, pydantic, numpy, networkx, multimethod, scipy, requests, PyWavelets, patsy, pandas, visions, statsmodels, matplotlib, imagehash, seaborn, phik, pandas-profiling\n",
++      "  Attempting uninstall: urllib3\n",
++      "    Found existing installation: urllib3 2.2.2\n",
++      "    Uninstalling urllib3-2.2.2:\n",
++      "      Successfully uninstalled urllib3-2.2.2\n",
++      "  Attempting uninstall: numpy\n",
++      "    Found existing installation: numpy 1.24.4\n",
++      "    Uninstalling numpy-1.24.4:\n",
++      "      Successfully uninstalled numpy-1.24.4\n",
++      "  Attempting uninstall: scipy\n",
++      "    Found existing installation: scipy 1.10.1\n",
++      "    Uninstalling scipy-1.10.1:\n",
++      "      Successfully uninstalled scipy-1.10.1\n",
++      "  Attempting uninstall: requests\n",
++      "    Found existing installation: requests 2.32.3\n",
++      "    Uninstalling requests-2.32.3:\n",
++      "      Successfully uninstalled requests-2.32.3\n",
++      "  Attempting uninstall: pandas\n",
++      "    Found existing installation: pandas 2.0.3\n",
++      "    Uninstalling pandas-2.0.3:\n",
++      "      Successfully uninstalled pandas-2.0.3\n",
++      "  Attempting uninstall: matplotlib\n",
++      "    Found existing installation: matplotlib 3.7.3\n",
++      "    Uninstalling matplotlib-3.7.3:\n",
++      "      Successfully uninstalled matplotlib-3.7.3\n",
++      "\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n",
++      "jupyterlab-server 2.27.3 requires requests>=2.31, but you have requests 2.28.2 which is incompatible.\u001b[0m\u001b[31m\n",
++      "\u001b[0mSuccessfully installed PyWavelets-1.4.1 htmlmin-0.1.12 imagehash-4.3.1 matplotlib-3.6.3 multimethod-1.9.1 networkx-3.1 numpy-1.23.5 pandas-1.5.3 pandas-profiling-3.6.2 patsy-0.5.6 phik-0.12.4 pydantic-1.10.17 requests-2.28.2 scipy-1.9.3 seaborn-0.12.2 statsmodels-0.13.5 tangled-up-in-unicode-0.2.0 tqdm-4.64.1 typeguard-2.13.3 urllib3-1.26.19 visions-0.7.5\n",
++      "Collecting pandas==1.2.3\n",
++      "  Downloading pandas-1.2.3.tar.gz (5.5 MB)\n",
++      "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m5.5/5.5 MB\u001b[0m \u001b[31m18.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m00:01\u001b[0m00:01\u001b[0m\n",
++      "\u001b[?25h  Installing build dependencies ... \u001b[?25ldone\n",
++      "\u001b[?25h  Getting requirements to build wheel ... \u001b[?25ldone\n",
++      "\u001b[?25h  Preparing metadata (pyproject.toml) ... \u001b[?25ldone\n",
++      "\u001b[?25hRequirement already satisfied: python-dateutil>=2.7.3 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from pandas==1.2.3) (2.9.0)\n",
++      "Requirement already satisfied: pytz>=2017.3 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from pandas==1.2.3) (2024.1)\n",
++      "Requirement already satisfied: numpy>=1.16.5 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from pandas==1.2.3) (1.23.5)\n",
++      "Requirement already satisfied: six>=1.5 in /Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages (from python-dateutil>=2.7.3->pandas==1.2.3) (1.16.0)\n",
++      "Building wheels for collected packages: pandas\n",
++      "  Building wheel for pandas (pyproject.toml) ... \u001b[?25l\\"
+      ]
+     }
+    ],
+@@ -878,7 +1000,7 @@
+    "name": "python",
+    "nbconvert_exporter": "python",
+    "pygments_lexer": "ipython3",
+-   "version": "3.9.15"
++   "version": "3.8.19"
+   }
+  },
+  "nbformat": 4,
+diff --git a/wandb/debug-cli.marioarriaga.log b/wandb/debug-cli.marioarriaga.log
+new file mode 100644
+index 0000000..e69de29
+diff --git a/wandb/debug-internal.log b/wandb/debug-internal.log
+new file mode 120000
+index 0000000..0ff441a
+--- /dev/null
++++ b/wandb/debug-internal.log
+@@ -0,0 +1 @@
++run-20240723_180402-0ar0y4l7/logs/debug-internal.log
+\ No newline at end of file
+diff --git a/wandb/debug.log b/wandb/debug.log
+new file mode 120000
+index 0000000..6a9a894
+--- /dev/null
++++ b/wandb/debug.log
+@@ -0,0 +1 @@
++run-20240723_180402-0ar0y4l7/logs/debug.log
+\ No newline at end of file
+diff --git a/wandb/latest-run b/wandb/latest-run
+new file mode 120000
+index 0000000..727a95e
+--- /dev/null
++++ b/wandb/latest-run
+@@ -0,0 +1 @@
++run-20240723_180402-0ar0y4l7
+\ No newline at end of file
+diff --git a/wandb/run-20240723_180402-0ar0y4l7/files/conda-environment.yaml b/wandb/run-20240723_180402-0ar0y4l7/files/conda-environment.yaml
+new file mode 100644
+index 0000000..07ea3b4
+--- /dev/null
++++ b/wandb/run-20240723_180402-0ar0y4l7/files/conda-environment.yaml
+@@ -0,0 +1,293 @@
++name: udacity
++channels:
++  - conda-forge
++  - defaults
++dependencies:
++  - alembic=1.13.2=pyhd8ed1ab_0
++  - aniso8601=9.0.1=pyhd8ed1ab_0
++  - anyio=4.4.0=pyhd8ed1ab_0
++  - appnope=0.1.4=pyhd8ed1ab_0
++  - argon2-cffi=23.1.0=pyhd8ed1ab_0
++  - argon2-cffi-bindings=21.2.0=py38hb192615_4
++  - arrow=1.3.0=pyhd8ed1ab_0
++  - asttokens=2.4.1=pyhd8ed1ab_0
++  - async-lru=2.0.4=pyhd8ed1ab_0
++  - attrs=23.2.0=pyh71513ae_0
++  - aws-c-auth=0.7.22=h8a62e84_10
++  - aws-c-cal=0.7.1=h94d0942_1
++  - aws-c-common=0.9.23=h99b78c6_0
++  - aws-c-compression=0.2.18=h94d0942_7
++  - aws-c-event-stream=0.4.2=hb74cd8f_15
++  - aws-c-http=0.8.2=had1507a_6
++  - aws-c-io=0.14.10=hcdb10ff_1
++  - aws-c-mqtt=0.10.4=h856d8ab_8
++  - aws-c-s3=0.6.0=ha9fd6de_2
++  - aws-c-sdkutils=0.1.16=h94d0942_3
++  - aws-checksums=0.1.18=h94d0942_7
++  - aws-crt-cpp=0.27.3=h9d3339c_2
++  - aws-sdk-cpp=1.11.329=he6360a2_9
++  - babel=2.14.0=pyhd8ed1ab_0
++  - backcall=0.2.0=pyh9f0ad1d_0
++  - bcrypt=4.1.3=py38h186058e_0
++  - beautifulsoup4=4.12.3=pyha770c72_0
++  - blas=2.122=openblas
++  - blas-devel=3.9.0=22_osxarm64_openblas
++  - bleach=6.1.0=pyhd8ed1ab_0
++  - blinker=1.8.2=pyhd8ed1ab_0
++  - brotli=1.1.0=hb547adb_1
++  - brotli-bin=1.1.0=hb547adb_1
++  - brotli-python=1.1.0=py38he333c0f_1
++  - bzip2=1.0.8=h99b78c6_7
++  - c-ares=1.32.2=h99b78c6_0
++  - ca-certificates=2024.7.4=hf0a4a13_0
++  - cached-property=1.5.2=hd8ed1ab_1
++  - cached_property=1.5.2=pyha770c72_1
++  - cachetools=5.4.0=pyhd8ed1ab_0
++  - certifi=2024.7.4=pyhd8ed1ab_0
++  - cffi=1.16.0=py38h73f40f7_0
++  - charset-normalizer=3.3.2=pyhd8ed1ab_0
++  - click=8.1.7=unix_pyh707e725_0
++  - cloudpickle=3.0.0=pyhd8ed1ab_0
++  - comm=0.2.2=pyhd8ed1ab_0
++  - contourpy=1.1.1=py38h9afee92_1
++  - cryptography=43.0.0=py38h4d1d993_0
++  - cycler=0.12.1=pyhd8ed1ab_0
++  - debugpy=1.8.2=py38h11842c7_0
++  - decorator=5.1.1=pyhd8ed1ab_0
++  - defusedxml=0.7.1=pyhd8ed1ab_0
++  - deprecated=1.2.14=pyh1a96a4e_0
++  - docker-py=7.1.0=pyhd8ed1ab_0
++  - entrypoints=0.4=pyhd8ed1ab_0
++  - exceptiongroup=1.2.2=pyhd8ed1ab_0
++  - executing=2.0.1=pyhd8ed1ab_0
++  - flask=3.0.3=pyhd8ed1ab_0
++  - fonttools=4.53.1=py38h3237794_0
++  - fqdn=1.5.1=pyhd8ed1ab_0
++  - freetype=2.12.1=hadb7bae_2
++  - gflags=2.2.2=hc88da5d_1004
++  - gitdb=4.0.11=pyhd8ed1ab_0
++  - gitpython=3.1.43=pyhd8ed1ab_0
++  - glog=0.7.1=heb240a5_0
++  - graphene=3.3=pyhd8ed1ab_0
++  - graphql-core=3.2.3=pyhd8ed1ab_0
++  - graphql-relay=3.2.0=pyhd8ed1ab_0
++  - greenlet=3.0.3=py38hb9fa5a8_0
++  - gunicorn=22.0.0=py38h10201cd_0
++  - h11=0.14.0=pyhd8ed1ab_0
++  - h2=4.1.0=pyhd8ed1ab_0
++  - hpack=4.0.0=pyh9f0ad1d_0
++  - httpcore=1.0.5=pyhd8ed1ab_0
++  - httpx=0.27.0=pyhd8ed1ab_0
++  - hyperframe=6.0.1=pyhd8ed1ab_0
++  - icu=75.1=hfee45f7_0
++  - idna=3.7=pyhd8ed1ab_0
++  - importlib-metadata=7.2.1=pyha770c72_0
++  - importlib-resources=6.4.0=pyhd8ed1ab_0
++  - importlib_metadata=7.2.1=hd8ed1ab_0
++  - importlib_resources=6.4.0=pyhd8ed1ab_0
++  - ipykernel=6.29.5=pyh57ce528_0
++  - ipython=8.12.2=pyhd1c38e8_0
++  - ipywidgets=8.1.3=pyhd8ed1ab_0
++  - isoduration=20.11.0=pyhd8ed1ab_0
++  - itsdangerous=2.2.0=pyhd8ed1ab_0
++  - jedi=0.19.1=pyhd8ed1ab_0
++  - jinja2=3.1.4=pyhd8ed1ab_0
++  - joblib=1.4.2=pyhd8ed1ab_0
++  - json5=0.9.25=pyhd8ed1ab_0
++  - jsonpointer=3.0.0=py38h10201cd_0
++  - jsonschema=4.23.0=pyhd8ed1ab_0
++  - jsonschema-specifications=2023.12.1=pyhd8ed1ab_0
++  - jsonschema-with-format-nongpl=4.23.0=hd8ed1ab_0
++  - jupyter=1.0.0=pyhd8ed1ab_10
++  - jupyter-lsp=2.2.5=pyhd8ed1ab_0
++  - jupyter_client=8.6.2=pyhd8ed1ab_0
++  - jupyter_console=6.6.3=pyhd8ed1ab_0
++  - jupyter_core=5.7.2=py38h10201cd_0
++  - jupyter_events=0.10.0=pyhd8ed1ab_0
++  - jupyter_server=2.14.2=pyhd8ed1ab_0
++  - jupyter_server_terminals=0.5.3=pyhd8ed1ab_0
++  - jupyterlab=4.2.4=pyhd8ed1ab_0
++  - jupyterlab_pygments=0.3.0=pyhd8ed1ab_1
++  - jupyterlab_server=2.27.3=pyhd8ed1ab_0
++  - jupyterlab_widgets=3.0.11=pyhd8ed1ab_0
++  - kiwisolver=1.4.5=py38h9afee92_1
++  - krb5=1.21.3=h237132a_0
++  - lcms2=2.16=ha0e7c42_0
++  - lerc=4.0.0=h9a09cb3_0
++  - libabseil=20240116.2=cxx17_h00cdb27_1
++  - libarrow=15.0.2=h652c9ea_19_cpu
++  - libarrow-acero=15.0.2=h00cdb27_19_cpu
++  - libarrow-dataset=15.0.2=h00cdb27_19_cpu
++  - libarrow-flight=15.0.2=h6348776_19_cpu
++  - libarrow-flight-sql=15.0.2=h6956890_19_cpu
++  - libarrow-gandiva=15.0.2=h31ed65c_19_cpu
++  - libarrow-substrait=15.0.2=h6df5cdc_19_cpu
++  - libblas=3.9.0=22_osxarm64_openblas
++  - libbrotlicommon=1.1.0=hb547adb_1
++  - libbrotlidec=1.1.0=hb547adb_1
++  - libbrotlienc=1.1.0=hb547adb_1
++  - libcblas=3.9.0=22_osxarm64_openblas
++  - libcrc32c=1.1.2=hbdafb3b_0
++  - libcurl=8.8.0=h7b6f9a7_1
++  - libcxx=18.1.8=h167917d_0
++  - libdeflate=1.20=h93a5062_0
++  - libedit=3.1.20191231=hc8eb9b7_2
++  - libev=4.33=h93a5062_2
++  - libevent=2.1.12=h2757513_1
++  - libffi=3.4.2=h3422bc3_5
++  - libgfortran=5.0.0=13_2_0_hd922786_3
++  - libgfortran5=13.2.0=hf226fd6_3
++  - libgoogle-cloud=2.26.0=hfe08963_0
++  - libgoogle-cloud-storage=2.26.0=h1466eeb_0
++  - libgrpc=1.62.2=h9c18a4f_0
++  - libiconv=1.17=h0d3ecfb_2
++  - libjpeg-turbo=3.0.0=hb547adb_1
++  - liblapack=3.9.0=22_osxarm64_openblas
++  - liblapacke=3.9.0=22_osxarm64_openblas
++  - libllvm16=16.0.6=haab561b_3
++  - libnghttp2=1.58.0=ha4dd798_1
++  - libopenblas=0.3.27=openmp_h517c56d_1
++  - libparquet=15.0.2=hcf52c46_19_cpu
++  - libpng=1.6.43=h091b4b1_0
++  - libprotobuf=4.25.3=hbfab5d5_0
++  - libre2-11=2023.09.01=h7b2c953_2
++  - libsodium=1.0.18=h27ca646_1
++  - libsqlite=3.46.0=hfb93653_0
++  - libssh2=1.11.0=h7a5bd25_0
++  - libthrift=0.19.0=h026a170_1
++  - libtiff=4.6.0=h07db509_3
++  - libutf8proc=2.8.0=h1a8c8d9_0
++  - libwebp-base=1.4.0=h93a5062_0
++  - libxcb=1.16=hf2054a2_0
++  - libxml2=2.12.7=h01dff8b_4
++  - libzlib=1.3.1=hfb2fe0b_1
++  - llvm-openmp=18.1.8=hde57baf_0
++  - lz4-c=1.9.4=hb7217d7_0
++  - mako=1.3.5=pyhd8ed1ab_0
++  - markdown=3.6=pyhd8ed1ab_0
++  - markupsafe=2.1.5=py38h336bac9_0
++  - matplotlib=3.7.3=py38h150bfb4_0
++  - matplotlib-base=3.7.3=py38hef9d0d7_0
++  - matplotlib-inline=0.1.7=pyhd8ed1ab_0
++  - mistune=3.0.2=pyhd8ed1ab_0
++  - mlflow=2.14.3=py38h10201cd_0
++  - mlflow-skinny=2.14.3=py38h10201cd_0
++  - mlflow-ui=2.14.3=py38h10201cd_0
++  - munkres=1.1.4=pyh9f0ad1d_0
++  - nbclient=0.10.0=pyhd8ed1ab_0
++  - nbconvert=7.16.4=hd8ed1ab_1
++  - nbconvert-core=7.16.4=pyhd8ed1ab_1
++  - nbconvert-pandoc=7.16.4=hd8ed1ab_1
++  - nbformat=5.10.4=pyhd8ed1ab_0
++  - ncurses=6.5=hb89a1cb_0
++  - nest-asyncio=1.6.0=pyhd8ed1ab_0
++  - notebook=7.2.1=pyhd8ed1ab_0
++  - notebook-shim=0.2.4=pyhd8ed1ab_0
++  - numpy=1.24.4=py38ha84db1f_0
++  - openblas=0.3.27=openmp_h560b219_1
++  - openjpeg=2.5.2=h9f1df11_0
++  - openssl=3.3.1=hfb2fe0b_2
++  - opentelemetry-api=1.16.0=pyhd8ed1ab_0
++  - opentelemetry-sdk=1.16.0=pyhd8ed1ab_0
++  - opentelemetry-semantic-conventions=0.37b0=pyhd8ed1ab_0
++  - orc=2.0.1=h47ade37_1
++  - overrides=7.7.0=pyhd8ed1ab_0
++  - packaging=24.1=pyhd8ed1ab_0
++  - pandas=2.0.3=py38hefb543e_1
++  - pandoc=3.2.1=hce30654_0
++  - pandocfilters=1.5.0=pyhd8ed1ab_0
++  - paramiko=3.4.0=pyhd8ed1ab_0
++  - parso=0.8.4=pyhd8ed1ab_0
++  - pexpect=4.9.0=pyhd8ed1ab_0
++  - pickleshare=0.7.5=py_1003
++  - pillow=10.4.0=py38h2c6aaed_0
++  - pip=24.0=pyhd8ed1ab_0
++  - pkgutil-resolve-name=1.3.10=pyhd8ed1ab_1
++  - platformdirs=4.2.2=pyhd8ed1ab_0
++  - pooch=1.8.2=pyhd8ed1ab_0
++  - prometheus_client=0.20.0=pyhd8ed1ab_0
++  - prometheus_flask_exporter=0.23.1=pyhd8ed1ab_0
++  - prompt-toolkit=3.0.47=pyha770c72_0
++  - prompt_toolkit=3.0.47=hd8ed1ab_0
++  - protobuf=4.25.3=py38hbcffe97_0
++  - psutil=6.0.0=py38h3237794_0
++  - pthread-stubs=0.4=h27ca646_1001
++  - ptyprocess=0.7.0=pyhd3deb0d_0
++  - pure_eval=0.2.3=pyhd8ed1ab_0
++  - pyarrow=15.0.2=py38hab2e7be_19_cpu
++  - pycparser=2.22=pyhd8ed1ab_0
++  - pygments=2.18.0=pyhd8ed1ab_0
++  - pynacl=1.5.0=py38hb192615_3
++  - pyobjc-core=10.1=py38h80987f9_0
++  - pyobjc-framework-cocoa=10.1=py38hb094c41_0
++  - pyparsing=3.1.2=pyhd8ed1ab_0
++  - pysocks=1.7.1=pyha2e5f31_6
++  - python=3.8.19=h2469fbe_0_cpython
++  - python-dateutil=2.9.0=pyhd8ed1ab_0
++  - python-fastjsonschema=2.20.0=pyhd8ed1ab_0
++  - python-json-logger=2.0.7=pyhd8ed1ab_0
++  - python-tzdata=2024.1=pyhd8ed1ab_0
++  - python_abi=3.8=4_cp38
++  - pytz=2024.1=pyhd8ed1ab_0
++  - pywin32-on-windows=0.1.0=pyh1179c8e_3
++  - pyyaml=6.0.1=py38hb192615_1
++  - pyzmq=26.0.3=py38h0d2f7f4_0
++  - qtconsole-base=5.5.2=pyha770c72_0
++  - qtpy=2.4.1=pyhd8ed1ab_0
++  - querystring_parser=1.2.4=py_0
++  - re2=2023.09.01=h4cba328_2
++  - readline=8.2=h92ec313_1
++  - referencing=0.35.1=pyhd8ed1ab_0
++  - requests=2.32.3=pyhd8ed1ab_0
++  - rfc3339-validator=0.1.4=pyhd8ed1ab_0
++  - rfc3986-validator=0.1.1=pyh9f0ad1d_0
++  - rpds-py=0.19.0=py38h186058e_0
++  - scikit-learn=1.3.2=py38he1bc1c9_2
++  - scipy=1.10.1=py38h9d039d2_1
++  - send2trash=1.8.3=pyh31c8845_0
++  - setuptools=71.0.4=pyhd8ed1ab_0
++  - six=1.16.0=pyh6c4a22f_0
++  - smmap=5.0.0=pyhd8ed1ab_0
++  - snappy=1.2.1=hd02b534_0
++  - sniffio=1.3.1=pyhd8ed1ab_0
++  - soupsieve=2.5=pyhd8ed1ab_1
++  - sqlalchemy=2.0.31=py38h3237794_0
++  - sqlparse=0.5.1=pyhd8ed1ab_0
++  - stack_data=0.6.2=pyhd8ed1ab_0
++  - terminado=0.18.1=pyh31c8845_0
++  - threadpoolctl=3.5.0=pyhc1e730c_0
++  - tinycss2=1.3.0=pyhd8ed1ab_0
++  - tk=8.6.13=h5083fa2_1
++  - tomli=2.0.1=pyhd8ed1ab_0
++  - tornado=6.4.1=py38h3237794_0
++  - traitlets=5.14.3=pyhd8ed1ab_0
++  - types-python-dateutil=2.9.0.20240316=pyhd8ed1ab_0
++  - typing-extensions=4.12.2=hd8ed1ab_0
++  - typing_extensions=4.12.2=pyha770c72_0
++  - typing_utils=0.1.0=pyhd8ed1ab_0
++  - tzdata=2024a=h0c530f3_0
++  - unicodedata2=15.1.0=py38hb192615_0
++  - uri-template=1.3.0=pyhd8ed1ab_0
++  - urllib3=2.2.2=pyhd8ed1ab_1
++  - wcwidth=0.2.13=pyhd8ed1ab_0
++  - webcolors=24.6.0=pyhd8ed1ab_0
++  - webencodings=0.5.1=pyhd8ed1ab_2
++  - websocket-client=1.8.0=pyhd8ed1ab_0
++  - werkzeug=3.0.3=pyhd8ed1ab_0
++  - wheel=0.43.0=pyhd8ed1ab_1
++  - widgetsnbextension=4.0.11=pyhd8ed1ab_0
++  - wrapt=1.16.0=py38h336bac9_0
++  - xorg-libxau=1.0.11=hb547adb_0
++  - xorg-libxdmcp=1.1.3=h27ca646_0
++  - xz=5.2.6=h57fd34a_0
++  - yaml=0.2.5=h3422bc3_2
++  - zeromq=4.3.5=hcc0f68c_4
++  - zipp=3.19.2=pyhd8ed1ab_0
++  - zstandard=0.23.0=py38h43bb1b3_0
++  - zstd=1.5.6=hb46c0d2_0
++  - pip:
++      - docker-pycreds==0.4.0
++      - sentry-sdk==2.10.0
++      - setproctitle==1.3.3
++      - wandb==0.17.5
++prefix: /Users/marioarriaga/miniconda3/envs/udacity
+diff --git a/wandb/run-20240723_180402-0ar0y4l7/files/config.yaml b/wandb/run-20240723_180402-0ar0y4l7/files/config.yaml
+new file mode 100644
+index 0000000..7d1d98f
+--- /dev/null
++++ b/wandb/run-20240723_180402-0ar0y4l7/files/config.yaml
+@@ -0,0 +1,28 @@
++wandb_version: 1
++
++path:
++  desc: null
++  value: wandb_test
++_wandb:
++  desc: null
++  value:
++    python_version: 3.8.19
++    cli_version: 0.17.5
++    is_jupyter_run: false
++    is_kaggle_kernel: false
++    start_time: 1721775842
++    t:
++      1:
++      - 55
++      2:
++      - 55
++      3:
++      - 2
++      - 16
++      - 23
++      4: 3.8.19
++      5: 0.17.5
++      8:
++      - 4
++      - 5
++      13: darwin-arm64
+diff --git a/wandb/run-20240723_180402-0ar0y4l7/files/requirements.txt b/wandb/run-20240723_180402-0ar0y4l7/files/requirements.txt
+new file mode 100644
+index 0000000..e3b285f
+--- /dev/null
++++ b/wandb/run-20240723_180402-0ar0y4l7/files/requirements.txt
+@@ -0,0 +1,179 @@
++Babel==2.14.0
++Brotli==1.1.0
++Deprecated==1.2.14
++Flask==3.0.3
++GitPython==3.1.43
++Jinja2==3.1.4
++Mako==1.3.5
++Markdown==3.6
++MarkupSafe==2.1.5
++PyNaCl==1.5.0
++PySocks==1.7.1
++PyYAML==6.0.1
++Pygments==2.18.0
++QtPy==2.4.1
++SQLAlchemy==2.0.31
++Send2Trash==1.8.3
++Werkzeug==3.0.3
++alembic==1.13.2
++aniso8601==9.0.1
++anyio==4.4.0
++appnope==0.1.4
++argon2-cffi-bindings==21.2.0
++argon2-cffi==23.1.0
++arrow==1.3.0
++asttokens==2.4.1
++async-lru==2.0.4
++attrs==23.2.0
++backcall==0.2.0
++bcrypt==4.1.3
++beautifulsoup4==4.12.3
++bleach==6.1.0
++blinker==1.8.2
++cached-property==1.5.2
++cachetools==5.4.0
++certifi==2024.7.4
++cffi==1.16.0
++charset-normalizer==3.3.2
++click==8.1.7
++cloudpickle==3.0.0
++comm==0.2.2
++contourpy==1.1.1
++cryptography==43.0.0
++cycler==0.12.1
++debugpy==1.8.2
++decorator==5.1.1
++defusedxml==0.7.1
++docker-pycreds==0.4.0
++docker==7.1.0
++entrypoints==0.4
++exceptiongroup==1.2.2
++executing==2.0.1
++fastjsonschema==2.20.0
++fonttools==4.53.1
++fqdn==1.5.1
++gitdb==4.0.11
++graphene==3.3
++graphql-core==3.2.3
++graphql-relay==3.2.0
++greenlet==3.0.3
++gunicorn==22.0.0
++h11==0.14.0
++h2==4.1.0
++hpack==4.0.0
++httpcore==1.0.5
++httpx==0.27.0
++hyperframe==6.0.1
++idna==3.7
++importlib_metadata==7.2.1
++importlib_resources==6.4.0
++ipykernel==6.29.5
++ipython==8.12.2
++ipywidgets==8.1.3
++isoduration==20.11.0
++itsdangerous==2.2.0
++jedi==0.19.1
++joblib==1.4.2
++json5==0.9.25
++jsonpointer==3.0.0
++jsonschema-specifications==2023.12.1
++jsonschema==4.23.0
++jupyter-console==6.6.3
++jupyter-events==0.10.0
++jupyter-lsp==2.2.5
++jupyter==1.0.0
++jupyter_client==8.6.2
++jupyter_core==5.7.2
++jupyter_server==2.14.2
++jupyter_server_terminals==0.5.3
++jupyterlab==4.2.4
++jupyterlab_pygments==0.3.0
++jupyterlab_server==2.27.3
++jupyterlab_widgets==3.0.11
++kiwisolver==1.4.5
++matplotlib-inline==0.1.7
++matplotlib==3.7.3
++mistune==3.0.2
++mlflow-skinny==2.14.3
++mlflow==2.14.3
++munkres==1.1.4
++nbclient==0.10.0
++nbconvert==7.16.4
++nbformat==5.10.4
++nest_asyncio==1.6.0
++notebook==7.2.1
++notebook_shim==0.2.4
++numpy==1.24.4
++opentelemetry-api==1.16.0
++opentelemetry-sdk==1.16.0
++opentelemetry-semantic-conventions==0.37b0
++overrides==7.7.0
++packaging==24.1
++pandas==2.0.3
++pandocfilters==1.5.0
++paramiko==3.4.0
++parso==0.8.4
++pexpect==4.9.0
++pickleshare==0.7.5
++pillow==10.4.0
++pip==24.0
++pkgutil_resolve_name==1.3.10
++platformdirs==4.2.2
++pooch==1.8.2
++prometheus_client==0.20.0
++prometheus_flask_exporter==0.23.1
++prompt_toolkit==3.0.47
++protobuf==4.25.3
++psutil==6.0.0
++ptyprocess==0.7.0
++pure_eval==0.2.3
++pyarrow==15.0.2
++pycparser==2.22
++pyobjc-core==10.1
++pyobjc-framework-Cocoa==10.1
++pyparsing==3.1.2
++python-dateutil==2.9.0
++python-json-logger==2.0.7
++pytz==2024.1
++pyzmq==26.0.3
++qtconsole==5.5.2
++querystring-parser==1.2.4
++referencing==0.35.1
++requests==2.32.3
++rfc3339-validator==0.1.4
++rfc3986-validator==0.1.1
++rpds-py==0.19.0
++scikit-learn==1.3.2
++scipy==1.10.1
++sentry-sdk==2.10.0
++setproctitle==1.3.3
++setuptools==71.0.4
++six==1.16.0
++smmap==5.0.0
++sniffio==1.3.1
++soupsieve==2.5
++sqlparse==0.5.1
++stack-data==0.6.2
++terminado==0.18.1
++threadpoolctl==3.5.0
++tinycss2==1.3.0
++tomli==2.0.1
++tornado==6.4.1
++traitlets==5.14.3
++types-python-dateutil==2.9.0.20240316
++typing-utils==0.1.0
++typing_extensions==4.12.2
++tzdata==2024.1
++unicodedata2==15.1.0
++uri-template==1.3.0
++urllib3==2.2.2
++wandb==0.17.5
++wcwidth==0.2.13
++webcolors==24.6.0
++webencodings==0.5.1
++websocket-client==1.8.0
++wheel==0.43.0
++widgetsnbextension==4.0.11
++wrapt==1.16.0
++zipp==3.19.2
++zstandard==0.23.0
+\ No newline at end of file
+diff --git a/wandb/run-20240723_180402-0ar0y4l7/files/wandb-metadata.json b/wandb/run-20240723_180402-0ar0y4l7/files/wandb-metadata.json
+new file mode 100644
+index 0000000..c386717
+--- /dev/null
++++ b/wandb/run-20240723_180402-0ar0y4l7/files/wandb-metadata.json
+@@ -0,0 +1,54 @@
++{
++    "os": "macOS-14.5-arm64-arm-64bit",
++    "python": "3.8.19",
++    "heartbeatAt": "2024-07-23T23:04:03.480092",
++    "startedAt": "2024-07-23T23:04:02.780547",
++    "docker": null,
++    "cuda": null,
++    "args": [
++        "artifact",
++        "put",
++        "-n",
++        "testing/artifact_test",
++        "wandb_test"
++    ],
++    "state": "running",
++    "program": "/Users/marioarriaga/miniconda3/envs/udacity/bin/wandb",
++    "codePathLocal": null,
++    "git": {
++        "remote": "https://github.com/marria9/Project-Build-an-ML-Pipeline-Starter",
++        "commit": "077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98"
++    },
++    "email": null,
++    "root": "/Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter",
++    "host": "MacbookAirM3.local",
++    "username": "marioarriaga",
++    "executable": "/Users/marioarriaga/miniconda3/envs/udacity/bin/python3.8",
++    "cpu_count": 8,
++    "cpu_count_logical": 8,
++    "cpu_freq": {
++        "current": 4056,
++        "min": 744,
++        "max": 4056
++    },
++    "cpu_freq_per_core": [
++        {
++            "current": 4056,
++            "min": 744,
++            "max": 4056
++        }
++    ],
++    "disk": {
++        "/": {
++            "total": 460.4317207336426,
++            "used": 106.85136795043945
++        }
++    },
++    "gpuapple": {
++        "type": "arm",
++        "vendor": "Apple"
++    },
++    "memory": {
++        "total": 16.0
++    }
++}
+diff --git a/wandb/run-20240723_180402-0ar0y4l7/files/wandb-summary.json b/wandb/run-20240723_180402-0ar0y4l7/files/wandb-summary.json
+new file mode 100644
+index 0000000..971d479
+--- /dev/null
++++ b/wandb/run-20240723_180402-0ar0y4l7/files/wandb-summary.json
+@@ -0,0 +1 @@
++{"_wandb": {"runtime": 1}}
+\ No newline at end of file
+diff --git a/wandb/run-20240723_180402-0ar0y4l7/logs/debug-internal.log b/wandb/run-20240723_180402-0ar0y4l7/logs/debug-internal.log
+new file mode 100644
+index 0000000..2bb52fd
+--- /dev/null
++++ b/wandb/run-20240723_180402-0ar0y4l7/logs/debug-internal.log
+@@ -0,0 +1,193 @@
++2024-07-23 18:04:02,788 INFO    StreamThr :48411 [internal.py:wandb_internal():85] W&B internal server running at pid: 48411, started at: 2024-07-23 18:04:02.787716
++2024-07-23 18:04:02,788 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: status
++2024-07-23 18:04:02,792 INFO    WriterThread:48411 [datastore.py:open_for_write():87] open: /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/run-20240723_180402-0ar0y4l7/run-0ar0y4l7.wandb
++2024-07-23 18:04:02,793 DEBUG   SenderThread:48411 [sender.py:send():379] send: header
++2024-07-23 18:04:02,809 DEBUG   SenderThread:48411 [sender.py:send():379] send: run
++2024-07-23 18:04:03,128 INFO    SenderThread:48411 [dir_watcher.py:__init__():211] watching files in: /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/run-20240723_180402-0ar0y4l7/files
++2024-07-23 18:04:03,128 INFO    SenderThread:48411 [sender.py:_start_run_threads():1188] run started: 0ar0y4l7 with start time 1721775842.788074
++2024-07-23 18:04:03,139 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: check_version
++2024-07-23 18:04:03,139 DEBUG   SenderThread:48411 [sender.py:send_request():406] send_request: check_version
++2024-07-23 18:04:03,263 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: run_start
++2024-07-23 18:04:03,265 DEBUG   HandlerThread:48411 [system_info.py:__init__():26] System info init
++2024-07-23 18:04:03,265 DEBUG   HandlerThread:48411 [system_info.py:__init__():41] System info init done
++2024-07-23 18:04:03,265 INFO    HandlerThread:48411 [system_monitor.py:start():194] Starting system monitor
++2024-07-23 18:04:03,265 INFO    SystemMonitor:48411 [system_monitor.py:_start():158] Starting system asset monitoring threads
++2024-07-23 18:04:03,265 INFO    HandlerThread:48411 [system_monitor.py:probe():214] Collecting system info
++2024-07-23 18:04:03,266 INFO    SystemMonitor:48411 [interfaces.py:start():188] Started cpu monitoring
++2024-07-23 18:04:03,273 INFO    SystemMonitor:48411 [interfaces.py:start():188] Started disk monitoring
++2024-07-23 18:04:03,275 INFO    SystemMonitor:48411 [interfaces.py:start():188] Started gpuapple monitoring
++2024-07-23 18:04:03,277 INFO    SystemMonitor:48411 [interfaces.py:start():188] Started memory monitoring
++2024-07-23 18:04:03,278 INFO    SystemMonitor:48411 [interfaces.py:start():188] Started network monitoring
++2024-07-23 18:04:03,478 ERROR   gpuapple  :48411 [gpu_apple.py:sample():110] GPU stats error: Command '['/Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGTRAP: 5>.
++Traceback (most recent call last):
++  File "/Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
++    subprocess.check_output(command, universal_newlines=True)
++  File "/Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/subprocess.py", line 415, in check_output
++    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
++  File "/Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/subprocess.py", line 516, in run
++    raise CalledProcessError(retcode, process.args,
++subprocess.CalledProcessError: Command '['/Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGTRAP: 5>.
++2024-07-23 18:04:03,478 ERROR   HandlerThread:48411 [gpu_apple.py:probe():176] GPU stats error: Command '['/Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGTRAP: 5>.
++Traceback (most recent call last):
++  File "/Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 164, in probe
++    subprocess.check_output(command, universal_newlines=True)
++  File "/Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/subprocess.py", line 415, in check_output
++    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
++  File "/Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/subprocess.py", line 516, in run
++    raise CalledProcessError(retcode, process.args,
++subprocess.CalledProcessError: Command '['/Users/marioarriaga/miniconda3/envs/udacity/lib/python3.8/site-packages/wandb/bin/apple_gpu_stats', '--json']' died with <Signals.SIGTRAP: 5>.
++2024-07-23 18:04:03,480 DEBUG   HandlerThread:48411 [system_info.py:probe():152] Probing system
++2024-07-23 18:04:03,484 DEBUG   HandlerThread:48411 [system_info.py:_probe_git():137] Probing git
++2024-07-23 18:04:03,505 DEBUG   HandlerThread:48411 [system_info.py:_probe_git():145] Probing git done
++2024-07-23 18:04:03,505 DEBUG   HandlerThread:48411 [system_info.py:probe():200] Probing system done
++2024-07-23 18:04:03,505 DEBUG   HandlerThread:48411 [system_monitor.py:probe():223] {'os': 'macOS-14.5-arm64-arm-64bit', 'python': '3.8.19', 'heartbeatAt': '2024-07-23T23:04:03.480092', 'startedAt': '2024-07-23T23:04:02.780547', 'docker': None, 'cuda': None, 'args': ('artifact', 'put', '-n', 'testing/artifact_test', 'wandb_test'), 'state': 'running', 'program': '/Users/marioarriaga/miniconda3/envs/udacity/bin/wandb', 'codePathLocal': None, 'git': {'remote': 'https://github.com/marria9/Project-Build-an-ML-Pipeline-Starter', 'commit': '077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98'}, 'email': None, 'root': '/Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter', 'host': 'MacbookAirM3.local', 'username': 'marioarriaga', 'executable': '/Users/marioarriaga/miniconda3/envs/udacity/bin/python3.8', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 4056, 'min': 744, 'max': 4056}, 'cpu_freq_per_core': [{'current': 4056, 'min': 744, 'max': 4056}], 'disk': {'/': {'total': 460.4317207336426, 'used': 106.85136795043945}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
++2024-07-23 18:04:03,505 INFO    HandlerThread:48411 [system_monitor.py:probe():224] Finished collecting system info
++2024-07-23 18:04:03,505 INFO    HandlerThread:48411 [system_monitor.py:probe():227] Publishing system info
++2024-07-23 18:04:03,505 DEBUG   HandlerThread:48411 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
++2024-07-23 18:04:04,134 INFO    Thread-12 :48411 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/run-20240723_180402-0ar0y4l7/files/conda-environment.yaml
++2024-07-23 18:04:04,406 DEBUG   HandlerThread:48411 [system_info.py:_save_conda():224] Saving conda packages done
++2024-07-23 18:04:04,407 INFO    HandlerThread:48411 [system_monitor.py:probe():229] Finished publishing system info
++2024-07-23 18:04:04,409 DEBUG   SenderThread:48411 [sender.py:send():379] send: files
++2024-07-23 18:04:04,409 INFO    SenderThread:48411 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
++2024-07-23 18:04:04,537 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: python_packages
++2024-07-23 18:04:04,537 DEBUG   SenderThread:48411 [sender.py:send_request():406] send_request: python_packages
++2024-07-23 18:04:04,538 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: stop_status
++2024-07-23 18:04:04,538 DEBUG   SenderThread:48411 [sender.py:send_request():406] send_request: stop_status
++2024-07-23 18:04:04,538 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: internal_messages
++2024-07-23 18:04:04,670 DEBUG   SenderThread:48411 [sender.py:send():379] send: telemetry
++2024-07-23 18:04:04,679 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: log_artifact
++2024-07-23 18:04:04,679 DEBUG   SenderThread:48411 [sender.py:send_request():406] send_request: log_artifact
++2024-07-23 18:04:04,681 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: server_info
++2024-07-23 18:04:04,842 INFO    wandb-upload_0:48411 [upload_job.py:push():130] Uploaded file /var/folders/c2/cx361z892njg_pshx7hlv2f40000gn/T/tmphrcyu8qhwandb/fvzkti1w-wandb-metadata.json
++2024-07-23 18:04:04,929 INFO    SenderThread:48411 [sender.py:send_request_log_artifact():1525] logged artifact artifact_test - {'id': 'QXJ0aWZhY3Q6OTc0NTg3OTcw', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI2NzIxNjcyNg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6OTc0NTg3OTcw', 'versionIndex': 0}}}
++2024-07-23 18:04:04,930 DEBUG   SenderThread:48411 [sender.py:send():379] send: telemetry
++2024-07-23 18:04:04,930 DEBUG   SenderThread:48411 [sender.py:send_request():406] send_request: server_info
++2024-07-23 18:04:04,993 DEBUG   SenderThread:48411 [sender.py:send():379] send: exit
++2024-07-23 18:04:04,993 INFO    SenderThread:48411 [sender.py:send_exit():586] handling exit code: 0
++2024-07-23 18:04:04,993 INFO    SenderThread:48411 [sender.py:send_exit():588] handling runtime: 1
++2024-07-23 18:04:04,994 INFO    SenderThread:48411 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
++2024-07-23 18:04:04,994 INFO    SenderThread:48411 [sender.py:send_exit():594] send defer
++2024-07-23 18:04:04,994 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: defer
++2024-07-23 18:04:04,994 INFO    HandlerThread:48411 [handler.py:handle_request_defer():184] handle defer: 0
++2024-07-23 18:04:04,994 DEBUG   SenderThread:48411 [sender.py:send_request():406] send_request: defer
++2024-07-23 18:04:04,994 INFO    SenderThread:48411 [sender.py:send_request_defer():610] handle sender defer: 0
++2024-07-23 18:04:04,994 INFO    SenderThread:48411 [sender.py:transition_state():614] send defer: 1
++2024-07-23 18:04:04,994 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: defer
++2024-07-23 18:04:04,994 INFO    HandlerThread:48411 [handler.py:handle_request_defer():184] handle defer: 1
++2024-07-23 18:04:04,994 DEBUG   SenderThread:48411 [sender.py:send_request():406] send_request: defer
++2024-07-23 18:04:04,994 INFO    SenderThread:48411 [sender.py:send_request_defer():610] handle sender defer: 1
++2024-07-23 18:04:04,994 INFO    SenderThread:48411 [sender.py:transition_state():614] send defer: 2
++2024-07-23 18:04:04,994 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: defer
++2024-07-23 18:04:04,994 INFO    HandlerThread:48411 [handler.py:handle_request_defer():184] handle defer: 2
++2024-07-23 18:04:04,994 INFO    HandlerThread:48411 [system_monitor.py:finish():203] Stopping system monitor
++2024-07-23 18:04:04,994 DEBUG   SystemMonitor:48411 [system_monitor.py:_start():172] Starting system metrics aggregation loop
++2024-07-23 18:04:04,995 INFO    HandlerThread:48411 [interfaces.py:finish():200] Joined cpu monitor
++2024-07-23 18:04:04,995 DEBUG   SystemMonitor:48411 [system_monitor.py:_start():179] Finished system metrics aggregation loop
++2024-07-23 18:04:04,995 INFO    HandlerThread:48411 [interfaces.py:finish():200] Joined disk monitor
++2024-07-23 18:04:04,995 DEBUG   SystemMonitor:48411 [system_monitor.py:_start():183] Publishing last batch of metrics
++2024-07-23 18:04:04,995 INFO    HandlerThread:48411 [interfaces.py:finish():200] Joined gpuapple monitor
++2024-07-23 18:04:04,995 INFO    HandlerThread:48411 [interfaces.py:finish():200] Joined memory monitor
++2024-07-23 18:04:04,995 INFO    HandlerThread:48411 [interfaces.py:finish():200] Joined network monitor
++2024-07-23 18:04:04,996 DEBUG   SenderThread:48411 [sender.py:send_request():406] send_request: defer
++2024-07-23 18:04:04,996 INFO    SenderThread:48411 [sender.py:send_request_defer():610] handle sender defer: 2
++2024-07-23 18:04:04,996 INFO    SenderThread:48411 [sender.py:transition_state():614] send defer: 3
++2024-07-23 18:04:04,996 DEBUG   SenderThread:48411 [sender.py:send():379] send: telemetry
++2024-07-23 18:04:04,996 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: defer
++2024-07-23 18:04:04,996 DEBUG   SenderThread:48411 [sender.py:send():379] send: stats
++2024-07-23 18:04:04,996 INFO    HandlerThread:48411 [handler.py:handle_request_defer():184] handle defer: 3
++2024-07-23 18:04:04,996 DEBUG   SenderThread:48411 [sender.py:send_request():406] send_request: defer
++2024-07-23 18:04:04,996 INFO    SenderThread:48411 [sender.py:send_request_defer():610] handle sender defer: 3
++2024-07-23 18:04:04,996 INFO    SenderThread:48411 [sender.py:transition_state():614] send defer: 4
++2024-07-23 18:04:04,996 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: defer
++2024-07-23 18:04:04,996 INFO    HandlerThread:48411 [handler.py:handle_request_defer():184] handle defer: 4
++2024-07-23 18:04:04,996 DEBUG   SenderThread:48411 [sender.py:send_request():406] send_request: defer
++2024-07-23 18:04:04,996 INFO    SenderThread:48411 [sender.py:send_request_defer():610] handle sender defer: 4
++2024-07-23 18:04:04,996 INFO    SenderThread:48411 [sender.py:transition_state():614] send defer: 5
++2024-07-23 18:04:04,996 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: defer
++2024-07-23 18:04:04,996 INFO    HandlerThread:48411 [handler.py:handle_request_defer():184] handle defer: 5
++2024-07-23 18:04:04,996 DEBUG   SenderThread:48411 [sender.py:send():379] send: summary
++2024-07-23 18:04:04,997 INFO    SenderThread:48411 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
++2024-07-23 18:04:04,997 DEBUG   SenderThread:48411 [sender.py:send_request():406] send_request: defer
++2024-07-23 18:04:04,997 INFO    SenderThread:48411 [sender.py:send_request_defer():610] handle sender defer: 5
++2024-07-23 18:04:04,997 INFO    SenderThread:48411 [sender.py:transition_state():614] send defer: 6
++2024-07-23 18:04:04,997 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: defer
++2024-07-23 18:04:04,997 INFO    HandlerThread:48411 [handler.py:handle_request_defer():184] handle defer: 6
++2024-07-23 18:04:04,997 DEBUG   SenderThread:48411 [sender.py:send_request():406] send_request: defer
++2024-07-23 18:04:04,997 INFO    SenderThread:48411 [sender.py:send_request_defer():610] handle sender defer: 6
++2024-07-23 18:04:04,999 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: status_report
++2024-07-23 18:04:05,098 INFO    SenderThread:48411 [sender.py:transition_state():614] send defer: 7
++2024-07-23 18:04:05,099 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: defer
++2024-07-23 18:04:05,099 INFO    HandlerThread:48411 [handler.py:handle_request_defer():184] handle defer: 7
++2024-07-23 18:04:05,099 DEBUG   SenderThread:48411 [sender.py:send_request():406] send_request: defer
++2024-07-23 18:04:05,099 INFO    SenderThread:48411 [sender.py:send_request_defer():610] handle sender defer: 7
++2024-07-23 18:04:05,099 INFO    SenderThread:48411 [sender.py:transition_state():614] send defer: 8
++2024-07-23 18:04:05,099 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: defer
++2024-07-23 18:04:05,099 INFO    HandlerThread:48411 [handler.py:handle_request_defer():184] handle defer: 8
++2024-07-23 18:04:05,100 DEBUG   SenderThread:48411 [sender.py:send_request():406] send_request: defer
++2024-07-23 18:04:05,100 INFO    SenderThread:48411 [sender.py:send_request_defer():610] handle sender defer: 8
++2024-07-23 18:04:05,100 INFO    SenderThread:48411 [job_builder.py:build():440] Attempting to build job artifact
++2024-07-23 18:04:05,100 INFO    SenderThread:48411 [job_builder.py:_get_source_type():569] is repo sourced job
++2024-07-23 18:04:05,100 WARNING SenderThread:48411 [job_builder.py:_log_if_verbose():274] No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job
++2024-07-23 18:04:05,100 INFO    SenderThread:48411 [sender.py:transition_state():614] send defer: 9
++2024-07-23 18:04:05,101 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: defer
++2024-07-23 18:04:05,101 INFO    HandlerThread:48411 [handler.py:handle_request_defer():184] handle defer: 9
++2024-07-23 18:04:05,101 DEBUG   SenderThread:48411 [sender.py:send_request():406] send_request: defer
++2024-07-23 18:04:05,101 INFO    SenderThread:48411 [sender.py:send_request_defer():610] handle sender defer: 9
++2024-07-23 18:04:05,101 INFO    SenderThread:48411 [dir_watcher.py:finish():358] shutting down directory watcher
++2024-07-23 18:04:05,139 INFO    Thread-12 :48411 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/run-20240723_180402-0ar0y4l7/files/config.yaml
++2024-07-23 18:04:05,140 INFO    SenderThread:48411 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/run-20240723_180402-0ar0y4l7/files/conda-environment.yaml
++2024-07-23 18:04:05,140 INFO    SenderThread:48411 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/run-20240723_180402-0ar0y4l7/files/wandb-summary.json
++2024-07-23 18:04:05,140 INFO    SenderThread:48411 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/run-20240723_180402-0ar0y4l7/files/wandb-metadata.json
++2024-07-23 18:04:05,141 INFO    SenderThread:48411 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/run-20240723_180402-0ar0y4l7/files/requirements.txt
++2024-07-23 18:04:05,141 INFO    SenderThread:48411 [dir_watcher.py:finish():388] scan: /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/run-20240723_180402-0ar0y4l7/files
++2024-07-23 18:04:05,141 INFO    SenderThread:48411 [dir_watcher.py:finish():402] scan save: /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/run-20240723_180402-0ar0y4l7/files/requirements.txt requirements.txt
++2024-07-23 18:04:05,141 INFO    SenderThread:48411 [dir_watcher.py:finish():402] scan save: /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/run-20240723_180402-0ar0y4l7/files/config.yaml config.yaml
++2024-07-23 18:04:05,143 INFO    SenderThread:48411 [dir_watcher.py:finish():402] scan save: /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/run-20240723_180402-0ar0y4l7/files/wandb-summary.json wandb-summary.json
++2024-07-23 18:04:05,146 INFO    SenderThread:48411 [dir_watcher.py:finish():402] scan save: /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/run-20240723_180402-0ar0y4l7/files/conda-environment.yaml conda-environment.yaml
++2024-07-23 18:04:05,149 INFO    SenderThread:48411 [dir_watcher.py:finish():402] scan save: /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/run-20240723_180402-0ar0y4l7/files/wandb-metadata.json wandb-metadata.json
++2024-07-23 18:04:05,149 INFO    SenderThread:48411 [sender.py:transition_state():614] send defer: 10
++2024-07-23 18:04:05,151 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: defer
++2024-07-23 18:04:05,151 INFO    HandlerThread:48411 [handler.py:handle_request_defer():184] handle defer: 10
++2024-07-23 18:04:05,152 DEBUG   SenderThread:48411 [sender.py:send_request():406] send_request: defer
++2024-07-23 18:04:05,153 INFO    SenderThread:48411 [sender.py:send_request_defer():610] handle sender defer: 10
++2024-07-23 18:04:05,153 INFO    SenderThread:48411 [file_pusher.py:finish():169] shutting down file pusher
++2024-07-23 18:04:05,408 INFO    wandb-upload_0:48411 [upload_job.py:push():130] Uploaded file /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/run-20240723_180402-0ar0y4l7/files/requirements.txt
++2024-07-23 18:04:05,537 INFO    wandb-upload_3:48411 [upload_job.py:push():130] Uploaded file /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/run-20240723_180402-0ar0y4l7/files/conda-environment.yaml
++2024-07-23 18:04:05,583 INFO    wandb-upload_2:48411 [upload_job.py:push():130] Uploaded file /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/run-20240723_180402-0ar0y4l7/files/wandb-summary.json
++2024-07-23 18:04:05,583 INFO    wandb-upload_1:48411 [upload_job.py:push():130] Uploaded file /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/run-20240723_180402-0ar0y4l7/files/config.yaml
++2024-07-23 18:04:05,788 INFO    Thread-11 :48411 [sender.py:transition_state():614] send defer: 11
++2024-07-23 18:04:05,789 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: defer
++2024-07-23 18:04:05,789 INFO    HandlerThread:48411 [handler.py:handle_request_defer():184] handle defer: 11
++2024-07-23 18:04:05,789 DEBUG   SenderThread:48411 [sender.py:send_request():406] send_request: defer
++2024-07-23 18:04:05,789 INFO    SenderThread:48411 [sender.py:send_request_defer():610] handle sender defer: 11
++2024-07-23 18:04:05,789 INFO    SenderThread:48411 [file_pusher.py:join():175] waiting for file pusher
++2024-07-23 18:04:05,789 INFO    SenderThread:48411 [sender.py:transition_state():614] send defer: 12
++2024-07-23 18:04:05,789 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: defer
++2024-07-23 18:04:05,789 INFO    HandlerThread:48411 [handler.py:handle_request_defer():184] handle defer: 12
++2024-07-23 18:04:05,789 DEBUG   SenderThread:48411 [sender.py:send_request():406] send_request: defer
++2024-07-23 18:04:05,789 INFO    SenderThread:48411 [sender.py:send_request_defer():610] handle sender defer: 12
++2024-07-23 18:04:05,789 INFO    SenderThread:48411 [file_stream.py:finish():601] file stream finish called
++2024-07-23 18:04:05,882 INFO    SenderThread:48411 [file_stream.py:finish():605] file stream finish is done
++2024-07-23 18:04:05,882 INFO    SenderThread:48411 [sender.py:transition_state():614] send defer: 13
++2024-07-23 18:04:05,883 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: defer
++2024-07-23 18:04:05,883 INFO    HandlerThread:48411 [handler.py:handle_request_defer():184] handle defer: 13
++2024-07-23 18:04:05,883 DEBUG   SenderThread:48411 [sender.py:send_request():406] send_request: defer
++2024-07-23 18:04:05,883 INFO    SenderThread:48411 [sender.py:send_request_defer():610] handle sender defer: 13
++2024-07-23 18:04:05,883 INFO    SenderThread:48411 [sender.py:transition_state():614] send defer: 14
++2024-07-23 18:04:05,884 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: defer
++2024-07-23 18:04:05,884 DEBUG   SenderThread:48411 [sender.py:send():379] send: final
++2024-07-23 18:04:05,884 INFO    HandlerThread:48411 [handler.py:handle_request_defer():184] handle defer: 14
++2024-07-23 18:04:05,884 DEBUG   SenderThread:48411 [sender.py:send():379] send: footer
++2024-07-23 18:04:05,885 DEBUG   SenderThread:48411 [sender.py:send_request():406] send_request: defer
++2024-07-23 18:04:05,885 INFO    SenderThread:48411 [sender.py:send_request_defer():610] handle sender defer: 14
++2024-07-23 18:04:05,886 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: poll_exit
++2024-07-23 18:04:05,886 DEBUG   SenderThread:48411 [sender.py:send_request():406] send_request: poll_exit
++2024-07-23 18:04:05,887 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: internal_messages
++2024-07-23 18:04:05,888 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: get_summary
++2024-07-23 18:04:05,888 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: sampled_history
++2024-07-23 18:04:05,888 DEBUG   HandlerThread:48411 [handler.py:handle_request():158] handle_request: shutdown
++2024-07-23 18:04:05,889 INFO    HandlerThread:48411 [handler.py:finish():882] shutting down handler
++2024-07-23 18:04:06,890 INFO    WriterThread:48411 [datastore.py:close():296] close: /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/run-20240723_180402-0ar0y4l7/run-0ar0y4l7.wandb
++2024-07-23 18:04:06,891 INFO    SenderThread:48411 [sender.py:finish():1615] shutting down sender
++2024-07-23 18:04:06,891 INFO    SenderThread:48411 [file_pusher.py:finish():169] shutting down file pusher
++2024-07-23 18:04:06,891 INFO    SenderThread:48411 [file_pusher.py:join():175] waiting for file pusher
+diff --git a/wandb/run-20240723_180402-0ar0y4l7/logs/debug.log b/wandb/run-20240723_180402-0ar0y4l7/logs/debug.log
+new file mode 100644
+index 0000000..cc48878
+--- /dev/null
++++ b/wandb/run-20240723_180402-0ar0y4l7/logs/debug.log
+@@ -0,0 +1,35 @@
++2024-07-23 18:04:02,782 INFO    MainThread:48400 [wandb_setup.py:_flush():76] Current SDK version is 0.17.5
++2024-07-23 18:04:02,782 INFO    MainThread:48400 [wandb_setup.py:_flush():76] Configure stats pid to 48400
++2024-07-23 18:04:02,782 INFO    MainThread:48400 [wandb_setup.py:_flush():76] Loading settings from /Users/marioarriaga/.config/wandb/settings
++2024-07-23 18:04:02,782 INFO    MainThread:48400 [wandb_setup.py:_flush():76] Loading settings from /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/settings
++2024-07-23 18:04:02,782 INFO    MainThread:48400 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'entity': 'marria9-western-governors-university', 'project': 'testing'}
++2024-07-23 18:04:02,782 INFO    MainThread:48400 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
++2024-07-23 18:04:02,782 WARNING MainThread:48400 [wandb_setup.py:_flush():76] Could not save program above cwd: /Users/marioarriaga/miniconda3/envs/udacity/bin/wandb
++2024-07-23 18:04:02,782 INFO    MainThread:48400 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': None, 'program_abspath': '/Users/marioarriaga/miniconda3/envs/udacity/bin/wandb', 'program': '/Users/marioarriaga/miniconda3/envs/udacity/bin/wandb'}
++2024-07-23 18:04:02,782 INFO    MainThread:48400 [wandb_setup.py:_flush():76] Applying login settings: {}
++2024-07-23 18:04:02,782 INFO    MainThread:48400 [wandb_init.py:_log_setup():529] Logging user logs to /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/run-20240723_180402-0ar0y4l7/logs/debug.log
++2024-07-23 18:04:02,782 INFO    MainThread:48400 [wandb_init.py:_log_setup():530] Logging internal logs to /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/wandb/run-20240723_180402-0ar0y4l7/logs/debug-internal.log
++2024-07-23 18:04:02,782 INFO    MainThread:48400 [wandb_init.py:init():569] calling init triggers
++2024-07-23 18:04:02,782 INFO    MainThread:48400 [wandb_init.py:init():576] wandb.init called with sweep_config: {}
++config: {'path': 'wandb_test'}
++2024-07-23 18:04:02,782 INFO    MainThread:48400 [wandb_init.py:init():619] starting backend
++2024-07-23 18:04:02,782 INFO    MainThread:48400 [wandb_init.py:init():623] setting up manager
++2024-07-23 18:04:02,786 INFO    MainThread:48400 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
++2024-07-23 18:04:02,787 INFO    MainThread:48400 [wandb_init.py:init():631] backend started and connected
++2024-07-23 18:04:02,792 INFO    MainThread:48400 [wandb_init.py:init():720] updated telemetry
++2024-07-23 18:04:02,808 INFO    MainThread:48400 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
++2024-07-23 18:04:03,138 INFO    MainThread:48400 [wandb_run.py:_on_init():2435] communicating current version
++2024-07-23 18:04:03,257 INFO    MainThread:48400 [wandb_run.py:_on_init():2444] got version response 
++2024-07-23 18:04:03,258 INFO    MainThread:48400 [wandb_init.py:init():804] starting run threads in backend
++2024-07-23 18:04:04,537 INFO    MainThread:48400 [wandb_run.py:_console_start():2413] atexit reg
++2024-07-23 18:04:04,538 INFO    MainThread:48400 [wandb_run.py:_redirect():2255] redirect: wrap_raw
++2024-07-23 18:04:04,538 INFO    MainThread:48400 [wandb_run.py:_redirect():2320] Wrapping output streams.
++2024-07-23 18:04:04,538 INFO    MainThread:48400 [wandb_run.py:_redirect():2345] Redirects installed.
++2024-07-23 18:04:04,539 INFO    MainThread:48400 [wandb_init.py:init():847] run started, returning control to user process
++2024-07-23 18:04:04,680 INFO    MainThread:48400 [wandb_run.py:_finish():2107] finishing run marria9-western-governors-university/testing/0ar0y4l7
++2024-07-23 18:04:04,680 INFO    MainThread:48400 [wandb_run.py:_atexit_cleanup():2374] got exitcode: 0
++2024-07-23 18:04:04,680 INFO    MainThread:48400 [wandb_run.py:_restore():2352] restore
++2024-07-23 18:04:04,680 INFO    MainThread:48400 [wandb_run.py:_restore():2358] restore done
++2024-07-23 18:04:06,891 INFO    MainThread:48400 [wandb_run.py:_footer_history_summary_info():4016] rendering history
++2024-07-23 18:04:06,891 INFO    MainThread:48400 [wandb_run.py:_footer_history_summary_info():4048] rendering summary
++2024-07-23 18:04:06,899 INFO    MainThread:48400 [wandb_run.py:_footer_sync_info():3975] logging synced files
+diff --git a/wandb/run-20240723_180402-0ar0y4l7/run-0ar0y4l7.wandb b/wandb/run-20240723_180402-0ar0y4l7/run-0ar0y4l7.wandb
+new file mode 100644
+index 0000000..1a678b9
+Binary files /dev/null and b/wandb/run-20240723_180402-0ar0y4l7/run-0ar0y4l7.wandb differ
+diff --git a/wandb_test b/wandb_test
+new file mode 100644
+index 0000000..5a9145c
+--- /dev/null
++++ b/wandb_test
+@@ -0,0 +1 @@
++wandb test

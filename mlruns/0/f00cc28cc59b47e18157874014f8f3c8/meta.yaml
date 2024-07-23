@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f00cc28cc59b47e18157874014f8f3c8/artifacts
+end_time: 1721776034851
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f00cc28cc59b47e18157874014f8f3c8
+run_name: overjoyed-shark-86
+run_uuid: f00cc28cc59b47e18157874014f8f3c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721775900097
+status: 3
+tags: []
+user_id: marioarriaga

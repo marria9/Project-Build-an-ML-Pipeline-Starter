@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/mlruns/0/cc380189c7e543fe830423718e0290bf/artifacts
+end_time: 1721776094051
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cc380189c7e543fe830423718e0290bf
+run_name: vaunted-fawn-189
+run_uuid: cc380189c7e543fe830423718e0290bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721776081896
+status: 3
+tags: []
+user_id: marioarriaga

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c51cd9cdd6094a738530368068b4ade2/artifacts
+end_time: 1721776034760
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c51cd9cdd6094a738530368068b4ade2
+run_name: charming-eel-897
+run_uuid: c51cd9cdd6094a738530368068b4ade2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721775965479
+status: 3
+tags: []
+user_id: marioarriaga
