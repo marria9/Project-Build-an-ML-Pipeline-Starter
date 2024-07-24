@@ -1,4 +1,5 @@
 Weights & Biases link: https://wandb.ai/marria9-western-governors-university/nyc_airbnb?nw=nwusermarria9
+
 Github repository link: https://github.com/nicholas-dinicola/ML-pipeline-short-term-rental-prices-NYC](https://github.com/marria9/Project-Build-an-ML-Pipeline-Starter
 
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
