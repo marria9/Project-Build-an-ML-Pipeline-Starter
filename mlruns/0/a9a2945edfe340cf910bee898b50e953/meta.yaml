@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a9a2945edfe340cf910bee898b50e953/artifacts
+end_time: 1721849469957
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a9a2945edfe340cf910bee898b50e953
+run_name: kindly-cow-276
+run_uuid: a9a2945edfe340cf910bee898b50e953
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721849459341
+status: 4
+tags: []
+user_id: marioarriaga
