@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2a257ca3669f44bba9bbf69d1e59549c/artifacts
+end_time: 1721846317657
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2a257ca3669f44bba9bbf69d1e59549c
+run_name: fun-crane-214
+run_uuid: 2a257ca3669f44bba9bbf69d1e59549c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721846237721
+status: 3
+tags: []
+user_id: marioarriaga
