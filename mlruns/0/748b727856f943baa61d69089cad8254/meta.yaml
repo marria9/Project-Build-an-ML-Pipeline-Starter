@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/mlruns/0/748b727856f943baa61d69089cad8254/artifacts
+end_time: 1721843300722
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 748b727856f943baa61d69089cad8254
+run_name: nosy-yak-347
+run_uuid: 748b727856f943baa61d69089cad8254
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721843297643
+status: 4
+tags: []
+user_id: marioarriaga

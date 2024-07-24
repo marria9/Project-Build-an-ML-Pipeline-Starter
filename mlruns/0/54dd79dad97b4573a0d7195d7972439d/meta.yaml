@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/mlruns/0/54dd79dad97b4573a0d7195d7972439d/artifacts
+end_time: 1721843300593
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 54dd79dad97b4573a0d7195d7972439d
+run_name: bittersweet-flea-863
+run_uuid: 54dd79dad97b4573a0d7195d7972439d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721843299367
+status: 4
+tags: []
+user_id: marioarriaga
