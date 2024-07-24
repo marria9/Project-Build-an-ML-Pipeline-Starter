@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f2dc247603de49e0a2d3d7d880848120/artifacts
+end_time: 1721780404628
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f2dc247603de49e0a2d3d7d880848120
+run_name: calm-croc-640
+run_uuid: f2dc247603de49e0a2d3d7d880848120
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721780363269
+status: 4
+tags: []
+user_id: marioarriaga

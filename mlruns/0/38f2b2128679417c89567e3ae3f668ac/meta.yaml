@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/mlruns/0/38f2b2128679417c89567e3ae3f668ac/artifacts
+end_time: 1721780404793
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 38f2b2128679417c89567e3ae3f668ac
+run_name: caring-mule-815
+run_uuid: 38f2b2128679417c89567e3ae3f668ac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721780361462
+status: 4
+tags: []
+user_id: marioarriaga

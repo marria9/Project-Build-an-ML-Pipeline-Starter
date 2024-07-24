@@ -1,0 +1,58 @@
+{
+    "os": "macOS-14.5-arm64-arm-64bit",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-07-24T00:19:58.788651",
+    "startedAt": "2024-07-24T00:19:57.957591",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        ".",
+        "-vv",
+        "--csv",
+        "clean_sample.csv:latest",
+        "--ref",
+        "clean_sample.csv:reference",
+        "--kl_threshold",
+        "0.2",
+        "--min_price",
+        "10",
+        "--max_price",
+        "350"
+    ],
+    "state": "running",
+    "program": "/Users/marioarriaga/miniconda3/envs/mlflow-af6473294b18f57ea960125076520147a7a4be59/bin/pytest",
+    "git": {
+        "remote": "https://github.com/marria9/Project-Build-an-ML-Pipeline-Starter",
+        "commit": "a4847280888f2fd8ad4f25abb4d4fc9ad68a3b0a"
+    },
+    "email": "marria9@wgu.edu",
+    "root": "/Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter",
+    "host": "MacbookAirM3.local",
+    "username": "marioarriaga",
+    "executable": "/Users/marioarriaga/miniconda3/envs/mlflow-af6473294b18f57ea960125076520147a7a4be59/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 4056,
+        "min": 744,
+        "max": 4056
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4056,
+            "min": 744,
+            "max": 4056
+        }
+    ],
+    "disk": {
+        "total": 460.4317207336426,
+        "used": 9.559913635253906
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

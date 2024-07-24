@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1f902faffb734e3ca202fb6fc9befc97/artifacts
+end_time: 1721779413633
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1f902faffb734e3ca202fb6fc9befc97
+run_name: handsome-goat-390
+run_uuid: 1f902faffb734e3ca202fb6fc9befc97
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721779374297
+status: 3
+tags: []
+user_id: marioarriaga

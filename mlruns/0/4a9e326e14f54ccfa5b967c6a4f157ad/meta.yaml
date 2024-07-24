@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/mlruns/0/4a9e326e14f54ccfa5b967c6a4f157ad/artifacts
+end_time: 1721780608872
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4a9e326e14f54ccfa5b967c6a4f157ad
+run_name: sneaky-newt-15
+run_uuid: 4a9e326e14f54ccfa5b967c6a4f157ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721780598733
+status: 4
+tags: []
+user_id: marioarriaga

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/mlruns/0/079b778e05194723b0450a6a5a77ccc0/artifacts
+end_time: 1721780608744
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 079b778e05194723b0450a6a5a77ccc0
+run_name: rogue-yak-265
+run_uuid: 079b778e05194723b0450a6a5a77ccc0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721780600473
+status: 4
+tags: []
+user_id: marioarriaga

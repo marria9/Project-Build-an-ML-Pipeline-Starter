@@ -1,0 +1,13 @@
+2024-07-23 19:23:24,321 INFO    MainThread:58169 [wandb_setup.py:_flush():68] Configure stats pid to 58169
+2024-07-23 19:23:24,321 INFO    MainThread:58169 [wandb_setup.py:_flush():68] Loading settings from /Users/marioarriaga/.config/wandb/settings
+2024-07-23 19:23:24,322 INFO    MainThread:58169 [wandb_setup.py:_flush():68] Loading settings from /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/src/data_check/wandb/settings
+2024-07-23 19:23:24,322 INFO    MainThread:58169 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'project': 'nyc_airbnb', '_require_service': 'True', 'run_group': 'development'}
+2024-07-23 19:23:24,322 WARNING MainThread:58169 [wandb_setup.py:_flush():68] Could not save program above cwd: /Users/marioarriaga/miniconda3/envs/mlflow-af6473294b18f57ea960125076520147a7a4be59/bin/pytest
+2024-07-23 19:23:24,322 INFO    MainThread:58169 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': None, 'program': '/Users/marioarriaga/miniconda3/envs/mlflow-af6473294b18f57ea960125076520147a7a4be59/bin/pytest'}
+2024-07-23 19:23:24,322 INFO    MainThread:58169 [wandb_init.py:_log_setup():478] Logging user logs to /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/src/data_check/wandb/run-20240723_192324-dcd07m64/logs/debug.log
+2024-07-23 19:23:24,322 INFO    MainThread:58169 [wandb_init.py:_log_setup():479] Logging internal logs to /Users/marioarriaga/Project-Build-an-ML-Pipeline-Starter/src/data_check/wandb/run-20240723_192324-dcd07m64/logs/debug-internal.log
+2024-07-23 19:23:24,322 INFO    MainThread:58169 [wandb_init.py:init():518] calling init triggers
+2024-07-23 19:23:24,322 INFO    MainThread:58169 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2024-07-23 19:23:24,322 INFO    MainThread:58169 [wandb_init.py:init():566] wandb.init() called when a run is still active
+2024-07-23 19:23:28,588 WARNING MsgRouterThr:58169 [router.py:message_loop():77] message_loop has been closed
